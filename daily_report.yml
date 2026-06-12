@@ -1,0 +1,33 @@
+name: Daily M&A Report
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # runs every day at 7:00 AM UTC
+  workflow_dispatch:        # allows manual trigger from GitHub website
+
+permissions:
+  contents: write           # needed to commit the report back to the repo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate report
+        run: python news_reporter.py --ci
+
+      - name: Commit and push report
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add docs/index.html
+          git commit -m "Daily report $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git push
