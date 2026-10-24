@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>M&amp;A Intelligence — 2026-10-23</title>
+<title>M&amp;A Intelligence — 2026-10-24</title>
 <style>
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
 :root{{--navy:#0F172A;--ink:#1E293B;--muted:#64748B;--line:#E2E8F0;--bg:#F1F5F9;--white:#fff;--radius:12px}}
@@ -99,47 +99,191 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     <div class="hdr-sub">US · GB · CN &nbsp;·&nbsp; Google · Reuters · BBC · Baidu · Sina · Caixin</div></div>
   </div>
   <div class="hdr-right">
-    <span class="hdr-time">23 Oct 2026, 12:29 UTC</span>
+    <span class="hdr-time">24 Oct 2026, 11:53 UTC</span>
     <button class="save-btn" onclick="saveReport()">&#8595; Save Report</button>
   </div>
 </header>
-<div class="kpi-strip"><button class="kpi" style="--kc:#7C3AED;--kb:#F5F3FF" data-lbl="M&amp;A" onclick="kpiClick('M&amp;A',this)"><span class="kpi-ico">🤝</span><span class="kpi-num" data-target="80">0</span><span class="kpi-lbl">M&amp;A</span><span class="kpi-bar-fill" style="width:43%"></span></button><button class="kpi" style="--kc:#059669;--kb:#ECFDF5" data-lbl="IPO" onclick="kpiClick('IPO',this)"><span class="kpi-ico">🚀</span><span class="kpi-num" data-target="33">0</span><span class="kpi-lbl">IPO</span><span class="kpi-bar-fill" style="width:18%"></span></button><button class="kpi" style="--kc:#0891B2;--kb:#E0F2FE" data-lbl="Earnings" onclick="kpiClick('Earnings',this)"><span class="kpi-ico">📊</span><span class="kpi-num" data-target="24">0</span><span class="kpi-lbl">Earnings</span><span class="kpi-bar-fill" style="width:13%"></span></button><button class="kpi" style="--kc:#DC2626;--kb:#FEF2F2" data-lbl="Regulatory" onclick="kpiClick('Regulatory',this)"><span class="kpi-ico">⚖️</span><span class="kpi-num" data-target="1">0</span><span class="kpi-lbl">Regulatory</span><span class="kpi-bar-fill" style="width:1%"></span></button><button class="kpi" style="--kc:#64748B;--kb:#F8FAFC" data-lbl="Company News" onclick="kpiClick('Company News',this)"><span class="kpi-ico">📰</span><span class="kpi-num" data-target="49">0</span><span class="kpi-lbl">Company News</span><span class="kpi-bar-fill" style="width:26%"></span></button></div>
+<div class="kpi-strip"><button class="kpi" style="--kc:#7C3AED;--kb:#F5F3FF" data-lbl="M&amp;A" onclick="kpiClick('M&amp;A',this)"><span class="kpi-ico">🤝</span><span class="kpi-num" data-target="76">0</span><span class="kpi-lbl">M&amp;A</span><span class="kpi-bar-fill" style="width:41%"></span></button><button class="kpi" style="--kc:#059669;--kb:#ECFDF5" data-lbl="IPO" onclick="kpiClick('IPO',this)"><span class="kpi-ico">🚀</span><span class="kpi-num" data-target="30">0</span><span class="kpi-lbl">IPO</span><span class="kpi-bar-fill" style="width:16%"></span></button><button class="kpi" style="--kc:#0891B2;--kb:#E0F2FE" data-lbl="Earnings" onclick="kpiClick('Earnings',this)"><span class="kpi-ico">📊</span><span class="kpi-num" data-target="23">0</span><span class="kpi-lbl">Earnings</span><span class="kpi-bar-fill" style="width:12%"></span></button><button class="kpi" style="--kc:#DC2626;--kb:#FEF2F2" data-lbl="Regulatory" onclick="kpiClick('Regulatory',this)"><span class="kpi-ico">⚖️</span><span class="kpi-num" data-target="1">0</span><span class="kpi-lbl">Regulatory</span><span class="kpi-bar-fill" style="width:1%"></span></button><button class="kpi" style="--kc:#64748B;--kb:#F8FAFC" data-lbl="Company News" onclick="kpiClick('Company News',this)"><span class="kpi-ico">📰</span><span class="kpi-num" data-target="55">0</span><span class="kpi-lbl">Company News</span><span class="kpi-bar-fill" style="width:30%"></span></button></div>
 <div class="ctrl">
   <div class="search-box">
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
     <input type="text" placeholder="Search by company, keyword or deal size…" oninput="doSearch(this.value)"/>
   </div>
-  <div class="mkt-pills"><span class="mkt-pill" style="--mc:#1D4ED8">🇺🇸 United States <b>47</b></span><span class="mkt-pill" style="--mc:#B91C1C">🇬🇧 Great Britain <b>59</b></span><span class="mkt-pill" style="--mc:#B45309">🇨🇳 China <b>81</b></span></div>
-  <span class="total-tag">187 articles today</span>
+  <div class="mkt-pills"><span class="mkt-pill" style="--mc:#1D4ED8">🇺🇸 United States <b>46</b></span><span class="mkt-pill" style="--mc:#B91C1C">🇬🇧 Great Britain <b>59</b></span><span class="mkt-pill" style="--mc:#B45309">🇨🇳 China <b>80</b></span></div>
+  <span class="total-tag">185 articles today</span>
 </div>
-<nav class="tabs"><button class="tab active" onclick="showTab('us',this)">🇺🇸 United States <span class="tab-cnt">47</span></button><button class="tab " onclick="showTab('gb',this)">🇬🇧 Great Britain <span class="tab-cnt">59</span></button><button class="tab " onclick="showTab('cn',this)">🇨🇳 China <span class="tab-cnt">81</span></button></nav>
+<nav class="tabs"><button class="tab active" onclick="showTab('us',this)">🇺🇸 United States <span class="tab-cnt">46</span></button><button class="tab " onclick="showTab('gb',this)">🇬🇧 Great Britain <span class="tab-cnt">59</span></button><button class="tab " onclick="showTab('cn',this)">🇨🇳 China <span class="tab-cnt">80</span></button></nav>
 <main class="main"><div id="panel-us" class="panel" style="display:block">
   <div class="panel-hdr" style="--mc:#1D4ED8">
     <div class="panel-hdr-left">
       <span class="panel-flag">🇺🇸</span>
-      <div><div class="panel-name">United States</div><div class="panel-count">47 articles today</div></div>
+      <div><div class="panel-name">United States</div><div class="panel-count">46 articles today</div></div>
     </div>
-    <div class="flt-bar"><button class="flt on" data-act="all" onclick="flt(this,'all','us')">All <span>47</span></button><button class="flt" data-act="IPO" onclick="flt(this,'IPO','us')">IPO <span>10</span></button><button class="flt" data-act="Earnings" onclick="flt(this,'Earnings','us')">Earnings <span>11</span></button><button class="flt" data-act="M&amp;A" onclick="flt(this,'M&amp;A','us')">M&amp;A <span>14</span></button><button class="flt" data-act="Company News" onclick="flt(this,'Company News','us')">Company News <span>12</span></button></div>
+    <div class="flt-bar"><button class="flt on" data-act="all" onclick="flt(this,'all','us')">All <span>46</span></button><button class="flt" data-act="Earnings" onclick="flt(this,'Earnings','us')">Earnings <span>10</span></button><button class="flt" data-act="Company News" onclick="flt(this,'Company News','us')">Company News <span>18</span></button><button class="flt" data-act="M&amp;A" onclick="flt(this,'M&amp;A','us')">M&amp;A <span>10</span></button><button class="flt" data-act="IPO" onclick="flt(this,'IPO','us')">IPO <span>8</span></button></div>
   </div>
-  <div class="grid" id="grid-us"><div class="card" data-activity="IPO" data-text="sk hynix pauses ipo of memory-chip unit as ai valuation fears mount sk hynix pauses sk hynix pauses ipo of memory-chip unit as ai valuation fears mount&amp;nbsp;&amp;nbsp;wsj">
+  <div class="grid" id="grid-us"><div class="card" data-activity="Earnings" data-text="rocket lab is buying iridium, and guess what? iridium just beat earnings! rocket lab rocket lab is buying iridium, and guess what? iridium just beat earnings!&amp;nbsp;&amp;nbsp;the motley fool">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="SK Hynix Pauses">SH</div></div>
-    <span class="act-dot" style="background:#059669" title="IPO"></span>
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="Rocket Lab">RL</div></div>
+    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQWE9EOHNwRFRHSUJvQzhaNTByNHIxdFVEM3JVbEFsUXpQdDQzQ1lsaVpBYmRHdWlVTVhVZG5rWG0yMzIyU3ZCcGlSZ2VaRmlOWlJ3Z0ZfUzJ6bWFRWFdOcWR0Q2hRall5YzZ3ZUFmanNWaHo0WkFSMnQ1LXRvX2lLUGp5U2x3bC1ZVXdtd3EwcjZTZGxLYUNXMWt3TDNDcVhmM0dv?oc=5" target="_blank" rel="noopener">SK Hynix Pauses IPO of Memory-Chip Unit as AI Valuation Fears Mount</a>
-    <p class="card-sum">SK Hynix Pauses IPO of Memory-Chip Unit as AI Valuation Fears Mount&amp;nbsp;&amp;nbsp;WSJ</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPbTdPRE5naEVFWGVnZmN3NklpYnpsdGpIU2ZwOG5hcmkzVnFwWHlmYW5TcXJQcTREcnRTX0xfR1Q0UW5KSXpETkdJQ0JMazFGYmc1YVlmR1ZJU1h5eWpXWFFOQTlxakozb1g4REVqNUl0VFRha0Fpa1hQUzhwQ2FLZXltc0JvVEQ0aDNlaUw0RFFudDZvZEQ2Vg?oc=5" target="_blank" rel="noopener">Rocket Lab Is Buying Iridium, and Guess What? Iridium Just Beat Earnings!</a>
+    <p class="card-sum">Rocket Lab Is Buying Iridium, and Guess What? Iridium Just Beat Earnings!&amp;nbsp;&amp;nbsp;The Motley Fool</p>
     <div class="card-foot">
-      <span class="co-tag">SK Hynix Pauses</span>
+      <span class="co-tag">Rocket Lab</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
 </div>
-<div class="card" data-activity="IPO" data-text="sk hynix scraps solidigm us ipo after shareholder concerns sk hynix scraps solidigm us sk hynix scraps solidigm us ipo after shareholder concerns&amp;nbsp;&amp;nbsp;bloomberg.com">
+<div class="card" data-activity="Company News" data-text="defense arm of us investment manager buys fraser industries defense arm of us investment manager defense arm of us investment manager buys fraser industries&amp;nbsp;&amp;nbsp;the maritime executive">
+  <div class="card-side">
+    <div class="lw" title="Defense Arm of US Investment Manager"><img src="https://logo.clearbit.com/arm.com" alt="Defense Arm of US Investment Manager" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#DB2777;display:none">DA</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">23 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNYm9vUGF1TDcwdFpRcmxNVnNaR2hpcmVwM09jdUdtZkROaDZCUTVXeXAwbHVnNXg5ckwyYWNQM3VELVZQN0REeFM1dFpPWmdIdW1PV0R2OVJlUnBydmFrZzIzRzRXempGWGl5MWN3X3ROUHRrMHFWRlJUZU5pR1pCRDRZSmRmSTdCWDlSM2tqUGNRVUV3T3M2MmVLOWVyU3c?oc=5" target="_blank" rel="noopener">Defense Arm of US Investment Manager Buys Fraser Industries</a>
+    <p class="card-sum">Defense Arm of US Investment Manager Buys Fraser Industries&amp;nbsp;&amp;nbsp;The Maritime Executive</p>
+    <div class="card-foot">
+      <span class="co-tag">Defense Arm of US Investment Manager</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="M&amp;A" data-text="j&amp;j, smith+nephew plans for ortho megamerger reportedly fall through j&amp;j smith j&amp;j, smith+nephew plans for ortho megamerger reportedly fall through&amp;nbsp;&amp;nbsp;massdevice">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="J&amp;J Smith">JS</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">23 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNbC1oY2dxYUZSbXIwanVVSG95LWlHeGpLUUprakRlNmc5SERpckhHbFRQbmF5VVhpLXdjTzBxZnJkMmlWUHFicUYwVDJHZEJoWmE1elJEQlBUa012M0gtY1c1R2MwQjMtc0poMnIzX3Z6NmZJalN1OC02ZVdaSDB1YXVmM2VRbXFvUTlaaTBzVjBuWGM4b0xQQw?oc=5" target="_blank" rel="noopener">J&amp;J, Smith+Nephew plans for ortho megamerger reportedly fall through</a>
+    <p class="card-sum">J&amp;J, Smith+Nephew plans for ortho megamerger reportedly fall through&amp;nbsp;&amp;nbsp;MassDevice</p>
+    <div class="card-foot">
+      <span class="co-tag">J&amp;J Smith</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="M&amp;A" data-text="m&amp;a news: instacart stock (cart) jumps 10% on takeover rumors m&amp;a news m&amp;a news: instacart stock (cart) jumps 10% on takeover rumors&amp;nbsp;&amp;nbsp;tipranks">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#7C3AED" title="M&amp;A News">MN</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">23 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOazF2b1h1NzF6MUJVY2F6VG1wMWw0ZmEwN0ZFZmU0c0lFNlU5YUlUZzl4QXJBZWpkU1ZYNk5XcmpfemgwbmtfcHFObzlhRnF2SDJXVXI5WDlIeURJbFp3UTYzZU9MUTk5NFp5R1h6ZndoN2dBS3BJRjM4eGt5YXNDTnRjcWNEaGEtbFlyUHZGOA?oc=5" target="_blank" rel="noopener">M&amp;A News: Instacart Stock (CART) Jumps 10% on Takeover Rumors</a>
+    <p class="card-sum">M&amp;A News: Instacart Stock (CART) Jumps 10% on Takeover Rumors&amp;nbsp;&amp;nbsp;TipRanks</p>
+    <div class="card-foot">
+      <span class="co-tag">M&amp;A News</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="elon musk to invest up to $1 billion in skydance: what to know elon musk elon musk to invest up to $1 billion in skydance: what to know&amp;nbsp;&amp;nbsp;yahoo finance">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#9333EA" title="Elon Musk">EM</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">23 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLTdQcDRaaGdGRTdUQ2k4NnBBZENaZWZBNE5oQ2FYRHBLTEQ4UW9mLUs3VFNhcV9wYnVabTVYZndYbG9YbGxNLTBWeUJVZDRaSGltMi0zMDZvWXBpcTNobnNlUVlOZ2lHM3VQRXhBTGJ4ajd1Sy1DRUNxY19La0pBV0xMQmNfblNYTW1TU3ZvTGR5TEx0NGo3WWVMcnBXSV9pal9rZU9ja2x1a0E?oc=5" target="_blank" rel="noopener">Elon Musk to invest up to $1 billion in Skydance: What to know</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>$1 billion</div><p class="card-sum">Elon Musk to invest up to $1 billion in Skydance: What to know&amp;nbsp;&amp;nbsp;Yahoo Finance</p>
+    <div class="card-foot">
+      <span class="co-tag">Elon Musk</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="basf raises evonik offer to €24 a share, sources say basf evonik basf raises evonik offer to €24 a share, sources say&amp;nbsp;&amp;nbsp;reuters">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#1D4ED8" title="BASF Evonik">BE</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">23 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWgwOXQwV0N5WFlOZDQ3LWRhMElCdXh5MGZMZnpfd0dGS2Z1X0g5MFhVM3czNk1ZdUhrdEEyYzltc0RNQ2xWcmpVcTZmVUVILU9lQ1VDc2FYNDdxVkJOc0QyNXQwZFNydnh3bHl5SXRhY1ZGc0lVSjlVQUZ0b0RXc2NDR3JuWFZSZFFvUU1kN3dLOV9nRXRMTDdGaEdQdktma1hPN3ZscFdwX1JwdHl2aDBJa2JpV2xJdGdB?oc=5" target="_blank" rel="noopener">BASF raises Evonik offer to €24 a share, sources say</a>
+    <p class="card-sum">BASF raises Evonik offer to €24 a share, sources say&amp;nbsp;&amp;nbsp;Reuters</p>
+    <div class="card-foot">
+      <span class="co-tag">BASF Evonik</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="M&amp;A" data-text="forbes daily: elon musk’s payday from a spacex and tesla merger tesla forbes daily: elon musk’s payday from a spacex and tesla merger&amp;nbsp;&amp;nbsp;forbes">
+  <div class="card-side">
+    <div class="lw" title="Tesla"><img src="https://logo.clearbit.com/tesla.com" alt="Tesla" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#7C3AED;display:none">T</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">23 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQN1pRaGdxanFKX01YWi16RTNSeU55cDE5UC1FWC05N0c1dHJ6Um9qSlpuVDVVNlFOVnJsQnI3U1poS1laNnhxM3JEa21NWEEyY3QtY3M2WnBOVGRzVDhTbjZIYUhIWE1GM1pFN0hWMHV3ZURrV19uRGV5T0M1ZlJpSFg1SkNMY2J3dGowTzZVQkszdEU3TlYtMElkSllpa283VzltRUxkdU90NUR3N1ZDWmQtcENXQXkzd1E?oc=5" target="_blank" rel="noopener">Forbes Daily: Elon Musk’s Payday From A SpaceX And Tesla Merger</a>
+    <p class="card-sum">Forbes Daily: Elon Musk’s Payday From A SpaceX And Tesla Merger&amp;nbsp;&amp;nbsp;Forbes</p>
+    <div class="card-foot">
+      <span class="co-tag">Tesla</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="dealership buy-sell updates: group 1 buys hennessy in atlanta; 18 franchises change hands dealership group dealership buy-sell updates: group 1 buys hennessy in atlanta; 18 franchises change hands&amp;nbsp;&amp;nbsp;automotive news">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#9333EA" title="Dealership Group">DG</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">23 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQcC01Q3NzZ0hJeVBLQjBjaUdiMmZZS2sxbTFEcHFxM0JMYzdSOFhRdkFwMEUtOVRNdmJnV0RuYWtDdVdWRU1EOVVVbS1teXRjY1BFQlA0ZDdFTWk0eTZNWTE0TmlBWW95NFVGS3NrZFNLQi1QdGNzVVN2N1RiWlltLXMwMzVGc0tydlpwTlk4czZLcTZDTU1TLUdMd2JPSkU?oc=5" target="_blank" rel="noopener">Dealership buy-sell updates: Group 1 buys Hennessy in Atlanta; 18 franchises change hands</a>
+    <p class="card-sum">Dealership buy-sell updates: Group 1 buys Hennessy in Atlanta; 18 franchises change hands&amp;nbsp;&amp;nbsp;Automotive News</p>
+    <div class="card-foot">
+      <span class="co-tag">Dealership Group</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="tilman fertitta wins auction for three new york restaurants tilman fertitta tilman fertitta wins auction for three new york restaurants&amp;nbsp;&amp;nbsp;chron">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#1D4ED8" title="Tilman Fertitta">TF</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">23 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPWHpOS2ZJazdWdnBDOWdVR3cyYUt1QTFUaldlemg3MVBDQ251b2g5S19NcE9OSGhXNTVyVFZvcTlJd1ZobFJuczFxMjFPdjR2TlRINktIeE9Wb0lxdml3TUhVZ2tnM3UwVTB2TEdHUnZ0V3VzVTNtc2VqbEJLc0hkR05oZmhKeFJ5blVvaWlJRQ?oc=5" target="_blank" rel="noopener">Tilman Fertitta wins auction for three New York restaurants</a>
+    <p class="card-sum">Tilman Fertitta wins auction for three New York restaurants&amp;nbsp;&amp;nbsp;Chron</p>
+    <div class="card-foot">
+      <span class="co-tag">Tilman Fertitta</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="IPO" data-text="sk hynix scraps solidigm us ipo after shareholder concerns sk hynix scraps solidigm us sk hynix scraps solidigm us ipo after shareholder concerns&amp;nbsp;&amp;nbsp;bloomberg">
   <div class="card-side">
     <div class="lw"><div class="avatar" style="background:#059669" title="SK Hynix Scraps Solidigm US">SH</div></div>
     <span class="act-dot" style="background:#059669" title="IPO"></span>
@@ -150,99 +294,117 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
       <span class="card-date">23 Oct 2026</span>
     </div>
     <a class="card-title" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOVDhkSXduZGRGdVZJRXIydm9zOEhLSklncEtEOTdROU5uRTZhLXlfOWpOYlFsOGNsUDRaX2hqY0t1dnRLVkFGR0R0RnhLR2hiazFIVEduenA3RnowdDNoRjQyTHQ0Z0p5RXJfbWhhcnZGUzZkS1prYTdxUUVVVWRXTUs4bzRGZnlkdGxOQWowaFRKMW1jbEYxN0N1bGlKdHhOcnZTUGZhTHZ1anVFcFE?oc=5" target="_blank" rel="noopener">SK Hynix Scraps Solidigm US IPO After Shareholder Concerns</a>
-    <p class="card-sum">SK Hynix Scraps Solidigm US IPO After Shareholder Concerns&amp;nbsp;&amp;nbsp;Bloomberg.com</p>
+    <p class="card-sum">SK Hynix Scraps Solidigm US IPO After Shareholder Concerns&amp;nbsp;&amp;nbsp;Bloomberg</p>
     <div class="card-foot">
       <span class="co-tag">SK Hynix Scraps Solidigm US</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
 </div>
-<div class="card" data-activity="IPO" data-text="sk hynix puts us ipo of chip unit solidigm on hold after seoul authorities raise concerns sk hynix puts us sk hynix puts us ipo of chip unit solidigm on hold after seoul authorities raise concerns&amp;nbsp;&amp;nbsp;reuters">
+<div class="card" data-activity="Company News" data-text="here are five possible devon energy suitors as activists spark m&amp;a chatter here are here are five possible devon energy suitors as activists spark m&amp;a chatter&amp;nbsp;&amp;nbsp;bloomberg">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#059669" title="SK Hynix puts US">SH</div></div>
-    <span class="act-dot" style="background:#059669" title="IPO"></span>
+    <div class="lw"><div class="avatar" style="background:#D97706" title="Here Are">HA</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
       <span class="card-date">22 Oct 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMirAFBVV95cUxNakIxS1gtNjFlNDJKUVl5cUZZTGlsamY3UG5ST0Y5UjEyU1RUSmx2Skh3aXZIRE95MjFUdHdXOFhVZVpRZmVUclRwSVJMNUVnYWFSOXFRRzdYWXNBbDJxZlBMbXlmVGYtQ09KOWtrWnJZTXdEQmRzeHNDUi0tMGJoWXVmaHNqZTkyRm1CQmFUcUE4OEN3YnJWQ2M1cEo0d1hNQ3BzVVVLakd2SXVo?oc=5" target="_blank" rel="noopener">SK Hynix puts US IPO of chip unit Solidigm on hold after Seoul authorities raise concerns</a>
-    <p class="card-sum">SK Hynix puts US IPO of chip unit Solidigm on hold after Seoul authorities raise concerns&amp;nbsp;&amp;nbsp;Reuters</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOZVE2YThYRUVaVzA5ZTFGbmNLMmhNa193Q05oenlDcUk2RGhiOVp1bmMta3NOUTB4QUptMzFtYUZlWXBXZmpSbnNwd0V3TktGbUVkb1VvakU1V0V4ZDFXaXo1aUpWTjBlb1o0MFMzMW5qc3VsRWdiZHJNaDRiUm5KaVl0dDBod1Q1ZG4xLUZZZGd0OV96V0wyNlNaNDFyV3JU?oc=5" target="_blank" rel="noopener">Here Are Five Possible Devon Energy Suitors as Activists Spark M&amp;A Chatter</a>
+    <p class="card-sum">Here Are Five Possible Devon Energy Suitors as Activists Spark M&amp;A Chatter&amp;nbsp;&amp;nbsp;Bloomberg</p>
     <div class="card-foot">
-      <span class="co-tag">SK Hynix puts US</span>
+      <span class="co-tag">Here Are</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
 </div>
-<div class="card" data-activity="IPO" data-text="nasdaq ceo flags &#x27;modest softening&#x27; in ipo market as macro uncertainty hits debuts nasdaq ceo nasdaq ceo flags &#x27;modest softening&#x27; in ipo market as macro uncertainty hits debuts&amp;nbsp;&amp;nbsp;reuters">
+<div class="card" data-activity="Company News" data-text="redesign health, arc global merge in $2b deal to accelerate health system innovation redesign health redesign health, arc global merge in $2b deal to accelerate health system innovation&amp;nbsp;&amp;nbsp;fierce healthcare">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Nasdaq CEO">NC</div></div>
-    <span class="act-dot" style="background:#059669" title="IPO"></span>
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="Redesign Health">RH</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
       <span class="card-date">22 Oct 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNa2tNRmp3a3M1dmlVenEyZWI1YUNVcTZXQlJTeDNrdGpsTXhFQ1NDQURlUDZOZUpvNWtjMGtBb1IyYmNnUVY3MlE1U3o4a01XWDM3WWZnVGltTTBGN2k3akZHb1hTVW52RlhFdEZOclBTSlVOQlp0aGxZdU5PeWR3THRZa2Z1M0R6VVVxT3ZDdWtlc2FfajRUMWRxNWlRb2tMUjRRdkttYlZTSGpja1V3SnRndlEyRVJUZ3QtRVlSRWFMX2I3YXIwa3R3?oc=5" target="_blank" rel="noopener">Nasdaq CEO flags &#x27;modest softening&#x27; in IPO market as macro uncertainty hits debuts</a>
-    <p class="card-sum">Nasdaq CEO flags &#x27;modest softening&#x27; in IPO market as macro uncertainty hits debuts&amp;nbsp;&amp;nbsp;Reuters</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMivgFBVV95cUxQRF85OURBMS0tU3FKYnc3M2ktMEs1dUJ1dDFCQXV3TGxreTdURzlUZmN0S21WNzdtVXRYdWctS0dMX0RiVjhZUkx5cUZGR1BPUWtkZ1laMXAxWWM3RmZEWURFNGp1Ukx4Zy1xMjZ0QlU2eXNvc3QyYW1NcWhRMXJrRmdadlB4VFRRdUxLRWVqa0ZIcmJoaDlIaUVpN0tyczJrVDd4aVAwUmhRbkZHWF9lcXhVNkYzS01rVjYtSk9n?oc=5" target="_blank" rel="noopener">Redesign Health, ARC Global merge in $2B deal to accelerate health system innovation</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>$2B</div><p class="card-sum">Redesign Health, ARC Global merge in $2B deal to accelerate health system innovation&amp;nbsp;&amp;nbsp;Fierce Healthcare</p>
     <div class="card-foot">
-      <span class="co-tag">Nasdaq CEO</span>
+      <span class="co-tag">Redesign Health</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
 </div>
-<div class="card" data-activity="IPO" data-text="anthropic ipo stands alone as ai market jitters sideline others anthropic anthropic ipo stands alone as ai market jitters sideline others&amp;nbsp;&amp;nbsp;reuters">
+<div class="card" data-activity="M&amp;A" data-text="lawsuit alleges skechers founders manipulated $9.4b buyout to shortchange investors lawsuit skechers lawsuit alleges skechers founders manipulated $9.4b buyout to shortchange investors&amp;nbsp;&amp;nbsp;investmentnews">
   <div class="card-side">
-    <div class="lw" title="Anthropic"><img src="https://logo.clearbit.com/anthropic.com" alt="Anthropic" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#1D4ED8;display:none">A</div></div>
-    <span class="act-dot" style="background:#059669" title="IPO"></span>
+    <div class="lw"><div class="avatar" style="background:#7C3AED" title="Lawsuit Skechers">LS</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
       <span class="card-date">22 Oct 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNX2RHNFI2M0VmLTVfUGwyWjBzTFZwcHBoNlFwZEttM3NHOHBVQzJmZmp0YV81V1lyX2VCWFZGMENVZzRhV3lPbVYzQWE1cHIwejVtbzlGR1hmMWpPTUlhM2pObDMyM1ZBMmEtbm14QXVnMUkzRnZvY25sTHlXM0hmTnNwbGx4SjNGaVhseGNHUVVQb0VzaVFVWTdVTUVMWkRVMS1JaFZWbDkzNmF5UEtWWWs2TEZxdjA?oc=5" target="_blank" rel="noopener">Anthropic IPO stands alone as AI market jitters sideline others</a>
-    <p class="card-sum">Anthropic IPO stands alone as AI market jitters sideline others&amp;nbsp;&amp;nbsp;Reuters</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxQU0EtWjI2Z3Z0UlRkc0Q5azROcklqQ3JMNW1wV0w0UjlubnNEMlB3NVpMTFktR1dtZWJjdnllcDBlcXYzckx4Q3p6Zkp1NXRJZjZTZE1GUDlSWURzdk5GUzJzVnN6SHlhMkFLRXhxZHl5WlBRbDFwSjNwVkZhOEp2OVpGZkJqaGJQc183U0xOM3lYYndHVm5XYjVLYXp1U3hoVUh4MVJLUGx6dnQyYVdXdGs3S3M4SXFxcU5OSzZ3elZNdHI3bzlvUlVpOThDRVpWelUtRFd2a3d5NWxVVkRoSg?oc=5" target="_blank" rel="noopener">Lawsuit alleges Skechers founders manipulated $9.4B buyout to shortchange investors</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>$9.4B</div><p class="card-sum">Lawsuit alleges Skechers founders manipulated $9.4B buyout to shortchange investors&amp;nbsp;&amp;nbsp;InvestmentNews</p>
     <div class="card-foot">
-      <span class="co-tag">Anthropic</span>
+      <span class="co-tag">Lawsuit Skechers</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
 </div>
-<div class="card" data-activity="IPO" data-text="am markets need to know: meta plans share issuance, anthropic ipo, and more (spx:) meta am markets need to know: meta plans share issuance, anthropic ipo, and more (spx:)&amp;nbsp;&amp;nbsp;seeking alpha">
+<div class="card" data-activity="Company News" data-text="elon musk steps in with $1 billion equity investment for debt-laden skydance — report elon musk elon musk steps in with $1 billion equity investment for debt-laden skydance — report&amp;nbsp;&amp;nbsp;deadline">
   <div class="card-side">
-    <div class="lw" title="Meta"><img src="https://logo.clearbit.com/anthropic.com" alt="Meta" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#DB2777;display:none">M</div></div>
-    <span class="act-dot" style="background:#059669" title="IPO"></span>
+    <div class="lw"><div class="avatar" style="background:#9333EA" title="Elon Musk">EM</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
       <span class="card-date">22 Oct 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQakRSU19hcGZLcGlveFRVVFdZZHkxUmJsaU13TzlCcVc0M3JGaEtnQXBwVlctd0VYTnYwOVZrWjNOQ09OVVgtOGZYLWVlLVNEeEFDQkNqSGNKcThMZVlEQXFCQnFRSzRMSUZma3ZwdXdETVFjOURxaGgyTUpaOGVwZWNkSHpMWU14b2tOYUpPZjBYLURwQTdaeE9PZEY0U2NVd3BrbVJId2dkeG94ZXA0?oc=5" target="_blank" rel="noopener">AM Markets Need to Know: Meta plans share issuance, Anthropic IPO, and more (SPX:)</a>
-    <p class="card-sum">AM Markets Need to Know: Meta plans share issuance, Anthropic IPO, and more (SPX:)&amp;nbsp;&amp;nbsp;Seeking Alpha</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPWkwtR0pVbVRIcjdBWXVoMHFFTGtGR2lydnFibGZVOHB5dUE1VHVta3JMMzVvT0pOWjNlMjhYWTVoc0Z2SWdMeEx6VDN5dVl4OUxqdko3VjR1cXhuZmhJQnRqaWVBX2VvWGc2bjJTM3RoeWtMaVpZNkRydFZhMGZjXzF4U3JRNjNDYzNFcg?oc=5" target="_blank" rel="noopener">Elon Musk Steps In With $1 Billion Equity Investment For Debt-Laden Skydance — Report</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>$1 Billion</div><p class="card-sum">Elon Musk Steps In With $1 Billion Equity Investment For Debt-Laden Skydance — Report&amp;nbsp;&amp;nbsp;Deadline</p>
     <div class="card-foot">
-      <span class="co-tag">Meta</span>
+      <span class="co-tag">Elon Musk</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
 </div>
-<div class="card" data-activity="Earnings" data-text="earnings calendar and analysis for this week (october 19-23) earnings calendar earnings calendar and analysis for this week (october 19-23)&amp;nbsp;&amp;nbsp;kiplinger">
+<div class="card" data-activity="Company News" data-text="why elon musk wants to merge tesla and spacex before trump leaves office tesla why elon musk wants to merge tesla and spacex before trump leaves office&amp;nbsp;&amp;nbsp;euronews.com">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#7C3AED" title="Earnings Calendar">EC</div></div>
-    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
+    <div class="lw" title="Tesla"><img src="https://logo.clearbit.com/tesla.com" alt="Tesla" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#7C3AED;display:none">T</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">22 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPbHZHUGlTZWhsTGJxY0FJOWlpRFVGNkx2Q0ttZW9rY043QTl2S2ppc3VVY0p4bzVTMXhlaUp3SlVERGdUc2QtXzlqMml4NVZHbnBCdTJRTm5pM1hpTWwwU0pkeVRfdFY4bDlGN1N2R0VTbm1qWVd5QWN4d054Vk1ReDlzVlpjejFYWFFKRE03S3NfZEpxNDM5eldRSjZMRkxpNTExYUpxaG11UjF2?oc=5" target="_blank" rel="noopener">Why Elon Musk wants to merge Tesla and SpaceX before Trump leaves office</a>
+    <p class="card-sum">Why Elon Musk wants to merge Tesla and SpaceX before Trump leaves office&amp;nbsp;&amp;nbsp;Euronews.com</p>
+    <div class="card-foot">
+      <span class="co-tag">Tesla</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="M&amp;A" data-text="john malone: trump officials told netflix &quot;no chance&quot; of wbd merger netflix john malone: trump officials told netflix &quot;no chance&quot; of wbd merger&amp;nbsp;&amp;nbsp;deadline">
+  <div class="card-side">
+    <div class="lw" title="Netflix"><img src="https://logo.clearbit.com/netflix.com" alt="Netflix" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#059669;display:none">N</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
       <span class="card-date">21 Oct 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT2JlZjF1QU9yZTBqNVJ4aXJUUjVFMDA4SWxPdEVienI3d2dFcFF4Z3BVNE40LWxmOHV1REljUVFaSFY3X2FrQm1xV2NMYWY3SHRoOFdhMXc2ZWFyZGtYTGV3Ul9lY1htRExZOFpMLXJGRWVRSWU1dTBUcjVSc0lEckdXTEhkck45Ujh3?oc=5" target="_blank" rel="noopener">Earnings Calendar and Analysis for This Week (October 19-23)</a>
-    <p class="card-sum">Earnings Calendar and Analysis for This Week (October 19-23)&amp;nbsp;&amp;nbsp;Kiplinger</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTZVMmZncnR5Si1EeFpoeTN2djI1MkdSUDZoeG56WjhPZjNqNkVLOHh5ejQzSXFEYXZTdFNxWXBUYWIzY25HbVQwWVFWX2ozajdDOVFwM2lGeFQtbHNDVXluYkg3dFNEMGdZeFI5SGhrZEl5eUhycmNzZ1h1QmJja0RZWVNKa2V6cWxmUU01UUNzZw?oc=5" target="_blank" rel="noopener">John Malone: Trump Officials Told Netflix &quot;No Chance&quot; Of WBD Merger</a>
+    <p class="card-sum">John Malone: Trump Officials Told Netflix &quot;No Chance&quot; Of WBD Merger&amp;nbsp;&amp;nbsp;Deadline</p>
     <div class="card-foot">
-      <span class="co-tag">Earnings Calendar</span>
+      <span class="co-tag">Netflix</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
@@ -261,6 +423,24 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     <p class="card-sum">Deals tracker: Cencora to acquire American Oncology Network&amp;nbsp;&amp;nbsp;Modern Healthcare</p>
     <div class="card-foot">
       <span class="co-tag">American Oncology Network</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="cencora to buy american oncology network in $2.4 billion deal cencora cencora to buy american oncology network in $2.4 billion deal&amp;nbsp;&amp;nbsp;reuters">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#DC2626" title="Cencora">C</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">21 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU0t0eE9yUFVfcDRpdVY3aGtfTlpxV1VYdUltQjNMSUZaUFBtWU5MUWp6QXh1QmxHX1lnTm55X0FxX1c2azZvcFA4MkJLNktFRml0MnVQTlo5eTNHSmlCRmdLbXBiQngtTTZEcndhZi1jM2h1T1Q4T0VadDFVOGhTSmFBbUdwUTFwT21zRjdHd3RFNTd4RlFqSDV5VkJ1SXhQWkZ3T3puaHNEMnZmVGM4a21KZUhvMkFLdlNJaWxkcGh6a2ZHeGhCZQ?oc=5" target="_blank" rel="noopener">Cencora to buy American Oncology Network in $2.4 billion deal</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>$2.4 billion</div><p class="card-sum">Cencora to buy American Oncology Network in $2.4 billion deal&amp;nbsp;&amp;nbsp;Reuters</p>
+    <div class="card-foot">
+      <span class="co-tag">Cencora</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
@@ -319,20 +499,20 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Earnings" data-text="earnings calendar for: earnings calendar earnings calendar for:&amp;nbsp;&amp;nbsp;yahoo finance">
+<div class="card" data-activity="Company News" data-text="say hello (again), wave goodbye – crescent doubles down in the eagle ford as devon heads for the exit ford say hello (again), wave goodbye – crescent doubles down in the eagle ford as devon heads for the exit&amp;nbsp;&amp;nbsp;rbn energy">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#7C3AED" title="Earnings Calendar">EC</div></div>
-    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
+    <div class="lw" title="Ford"><img src="https://logo.clearbit.com/ford.com" alt="Ford" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#DC2626;display:none">F</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
-      <span class="card-date">18 Oct 2026</span>
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">20 Oct 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE05V1RmR2JtbjVQMU41V1FFTXhndmlBUy1QN0FvdHo2bFVRbkRXLWRXVVVaNmVTcXVMd3ljbTRHc21FYkxqWDFYUGVPU0taUUFwc0FhM3lLWQ?oc=5" target="_blank" rel="noopener">Earnings Calendar for:</a>
-    <p class="card-sum">Earnings Calendar for:&amp;nbsp;&amp;nbsp;Yahoo Finance</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOMHZoOHhnYkNtbHNFT0I4Ui1EWVpsb2FibW9TcEY3cDByRnZxckpNazZ0dkFVM0RxMjlKck1KUXpnWDlabFRCSkxZUVB6eWFDeVdESUZycnAya05ZN0JiMGVRdk83ZVh3N0NBanFIQzl0OV9YRC1EMG1IckE1cThLOTY2RXh5amxIYllQLVBObklDUQ?oc=5" target="_blank" rel="noopener">Say Hello (Again), Wave Goodbye – Crescent Doubles Down in the Eagle Ford as Devon Heads for the Exit</a>
+    <p class="card-sum">Say Hello (Again), Wave Goodbye – Crescent Doubles Down in the Eagle Ford as Devon Heads for the Exit&amp;nbsp;&amp;nbsp;RBN Energy</p>
     <div class="card-foot">
-      <span class="co-tag">Earnings Calendar</span>
+      <span class="co-tag">Ford</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
@@ -355,92 +535,20 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="paramount gets court green light on warner bros deal, names mattel&#x27;s kreiz co-ceo paramount warner paramount gets court green light on warner bros deal, names mattel&#x27;s kreiz co-ceo&amp;nbsp;&amp;nbsp;reuters">
+<div class="card" data-activity="Company News" data-text="wall st week ahead jobs report, broadcom results pose next hurdles for stock market rally wall st wall st week ahead jobs report, broadcom results pose next hurdles for stock market rally&amp;nbsp;&amp;nbsp;reuters">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="Paramount Warner">PW</div></div>
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="Wall St">WS</div></div>
     <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">30 Sep 2026</span>
+      <span class="card-date">30 Aug 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMingFBVV95cUxOVm40VWZUeEUzZE80a0FUdENrZ0d0Q0h1c2x0SVA5WkhtRU1SVWNGSWFxcjA3c2E1UkpSM0F2RkJYYkhlVTd0RTNDSFVwZlNEQkFwMXY2YzJOUTRKV2UwY2k3c1hEUkpKZS04OVl5UUQ2U19wcW5OSWVQZTA2QTM4bmlCYlVWczBUdF91eG0zdngtbENyMHYxQi01MUxkdw?oc=5" target="_blank" rel="noopener">Paramount gets court green light on Warner Bros deal, names Mattel&#x27;s Kreiz co-CEO</a>
-    <p class="card-sum">Paramount gets court green light on Warner Bros deal, names Mattel&#x27;s Kreiz co-CEO&amp;nbsp;&amp;nbsp;Reuters</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTjVfaWU5QkF5T0paRm0xSHdteDJHZjB1YTVMcmNZcjVWNHQzcWV2Rm1FaVd3RFN5OHFndERRRUljQ2dYMjhJQXdER21XMEJjQThvN0JONTRJNlpNUEt2V2xCWGtFdmJQcVMydi1MSEtDd1lsQVR4Q2ZYZDlldFI0VE5odDc3LVU1NDB5SlRQVlh3NWg4Tjl1Y2J0blJxczFyVUNmYlZ2b0hCZ1o1SzdiMFdEUHRfWlBWUTlCLVRtN3g?oc=5" target="_blank" rel="noopener">Wall St Week Ahead Jobs report, Broadcom results pose next hurdles for stock market rally</a>
+    <p class="card-sum">Wall St Week Ahead Jobs report, Broadcom results pose next hurdles for stock market rally&amp;nbsp;&amp;nbsp;Reuters</p>
     <div class="card-foot">
-      <span class="co-tag">Paramount Warner</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="australia&#x27;s ingenia rejects warburg pincus&#x27; $1.4 billion offer, sticks with peet acquisition australia ingenia australia&#x27;s ingenia rejects warburg pincus&#x27; $1.4 billion offer, sticks with peet acquisition&amp;nbsp;&amp;nbsp;reuters">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#7C3AED" title="Australia Ingenia">AI</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">07 Sep 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPNWg1LTRBdXZPaDVxQ3plT3BDY3ZjMWRGc21pdXZ6a2ZuUlVHTEtmM2dqR2xyb3FINnFjQTZubVVSclROZFdDVTYtVWhhZDF5ZkFNTmRQY1F6UzF1b2RqWFk5OVdFZGl3c0tIOVV1dnNNckxxTW1PSjd3MjhEZ2kxUTJrTWQ4amJ2RTVzNXJMdm9RT0pKWFAzUXl0dG92NTltRDhqaFFfd2g1eXJsUHVIOEZxUlBBTTN0c2pHTQ?oc=5" target="_blank" rel="noopener">Australia&#x27;s Ingenia rejects Warburg Pincus&#x27; $1.4 billion offer, sticks with Peet acquisition</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>$1.4 billion</div><p class="card-sum">Australia&#x27;s Ingenia rejects Warburg Pincus&#x27; $1.4 billion offer, sticks with Peet acquisition&amp;nbsp;&amp;nbsp;Reuters</p>
-    <div class="card-foot">
-      <span class="co-tag">Australia Ingenia</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Company News" data-text="private equity firms snap up more london-listed companies snap private equity firms snap up more london-listed companies&amp;nbsp;&amp;nbsp;financial times">
-  <div class="card-side">
-    <div class="lw" title="Snap"><img src="https://logo.clearbit.com/snap.com" alt="Snap" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#059669;display:none">S</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">01 Sep 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQc05fRG9BRlI3RGVTMHNDSmE5RlBvN083OXRJMUdkYzRzNjhXS0g2SWdqZE4wRGN1Q1N0ZkVRV3U3Y3cwcXFPOG53cFhQeHM3NHUwbzRFa2ZfTGtyenBFYkJOMkVidjRMaFE0MnBJT0FWOFJxektpaGdRNlFFMlQ2ZDQ1Q0o?oc=5" target="_blank" rel="noopener">Private equity firms snap up more London-listed companies</a>
-    <p class="card-sum">Private equity firms snap up more London-listed companies&amp;nbsp;&amp;nbsp;Financial Times</p>
-    <div class="card-foot">
-      <span class="co-tag">Snap</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Company News" data-text="aon strikes $17 billion deal for usi, doubling down on the middle market aon usi aon strikes $17 billion deal for usi, doubling down on the middle market&amp;nbsp;&amp;nbsp;insurance business">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Aon USI">AU</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">31 Aug 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNnF6M3dISGJkclhZOExrSy11YWQ0bXRSN1BMZWRlQWRhdlczY192WjFFRXg5MzlHQ1ZnRS1hLXhYUHdnY0lPSUw1ZXBFVWlHdjBYTXN6TVBOaEYtWWhPOXFMVVYyaFpGbWxmMGpHS0NMRFBDbVdsSWRfaGtLb3A0THJhU2dpMGU3clpvMHhSekpHeGt3czR4Sk5tVUFyTnBQNnpEcXg2UzBUWjFoeDVSbmNkY0dWWWNSXzhiOTVPU2Q0MnZwSzh3Yl9UMVl2UElSbGc?oc=5" target="_blank" rel="noopener">Aon strikes $17 billion deal for USI, doubling down on the middle market</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>$17 billion</div><p class="card-sum">Aon strikes $17 billion deal for USI, doubling down on the middle market&amp;nbsp;&amp;nbsp;Insurance Business</p>
-    <div class="card-foot">
-      <span class="co-tag">Aon USI</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="minnesota companies on pace for record year in acquisition deals minnesota minnesota companies on pace for record year in acquisition deals&amp;nbsp;&amp;nbsp;star tribune">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="Minnesota">M</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">28 Aug 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVnZRVXpYSUlWSjVFSThicENwbEREMFBRbldFNU9vSDRJVGYzR1Q3RWlVd1lmZTB0V0s3ZVRxTVIzTzQ5bklXSEdoM0g5cTI4UDhkWWYxTkV4V1EwRmpEaFVQaEZKSzdkWkQzLWtIclk3NmlVLVB0amlYU2FZT0FnSmNiREFRdmF5VDFGamhCamgzbHhvY2FkYmZ4eWYzT3hCbUREdHE1NFhBS0U?oc=5" target="_blank" rel="noopener">Minnesota companies on pace for record year in acquisition deals</a>
-    <p class="card-sum">Minnesota companies on pace for record year in acquisition deals&amp;nbsp;&amp;nbsp;Star Tribune</p>
-    <div class="card-foot">
-      <span class="co-tag">Minnesota</span>
+      <span class="co-tag">Wall St</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
@@ -481,63 +589,9 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="from energy to ai: five major us business deals of 2026 from ai from energy to ai: five major us business deals of 2026&amp;nbsp;&amp;nbsp;the american bazaar">
+<div class="card" data-activity="M&amp;A" data-text="aurora cannabis rejects curaleaf’s claim it refused to engage in acquisition proposal aurora cannabis aurora cannabis rejects curaleaf’s claim it refused to engage in acquisition proposal&amp;nbsp;&amp;nbsp;cannabis business times">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="From AI">FA</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">20 Aug 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0VqeGZfWVRHVTBTUTJPLTlncjZyWkVYbmgwMXNqcDJkVFAySWRlUVdIdE1laWFKVk5EdmFTdFlFUEpIeTJmcjlDSmpyT201UnliRFBnQXdmOUhmTVFjc0NBSlR4alBZdXFZeno0QndHY2p0TmJKaGVtdnZlM2Jnd0duVUt4aEVNM0xGN2ViOUpUcHpGOE5HVjUtOWE2bURQOWJWb1dVME01Zw?oc=5" target="_blank" rel="noopener">From energy to AI: Five major US business deals of 2026</a>
-    <p class="card-sum">From energy to AI: Five major US business deals of 2026&amp;nbsp;&amp;nbsp;The American Bazaar</p>
-    <div class="card-foot">
-      <span class="co-tag">From AI</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Company News" data-text="wendy&#x27;s could be bought by top shareholder and billionaire nelson peltz wendy nelson wendy&#x27;s could be bought by top shareholder and billionaire nelson peltz&amp;nbsp;&amp;nbsp;cincinnati enquirer">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="Wendy Nelson">WN</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">13 Aug 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWGtlRGRpZ0VDcXd6Ymx3QUQ4cXBjR0FIOTJyRGZtTTRfeC1GeVpMbUtRR3ZiX3RodjliUFlhakdnY0ZNbjFIX00tNHZoOHFiNEctdmppbWtEOWVtVUU0cHF2V1JHUldSV1JFSFNRcTlSNzBKWmhZM3lodDFVVERXVDhXdGQ4WlEtZGZTT3R6dXJLMThPN011ZVJ6ZjdWMFAxSkYwWFQ1SU1pX1pzR05nb3FyUGJhOU9rSnprNkgyY3drbEUtbHhyVw?oc=5" target="_blank" rel="noopener">Wendy&#x27;s could be bought by top shareholder and billionaire Nelson Peltz</a>
-    <p class="card-sum">Wendy&#x27;s could be bought by top shareholder and billionaire Nelson Peltz&amp;nbsp;&amp;nbsp;Cincinnati Enquirer</p>
-    <div class="card-foot">
-      <span class="co-tag">Wendy Nelson</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Company News" data-text="hospitality dealmakers pursued ‘bigger, higher-conviction’ m&amp;a in h1 2026 hospitality m&amp;a hospitality dealmakers pursued ‘bigger, higher-conviction’ m&amp;a in h1 2026&amp;nbsp;&amp;nbsp;hotel dive">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="Hospitality M&amp;A">HM</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">12 Aug 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNME5CYmxMS05Ca29hTmRfcENYSjZkbDV1NnhpdUlTWUxrUmlZd1YtUTBRcmo2TnBzcjJzdmYzUWpiVGZnWElFeTg3b3JDYkxuV3NZak9QRkQzZ0J4TC1acjNPWWN5WkdUMDlnQWljb2J6UXR3Y2otaVA4SlVhelhldGI3ZjVnbmhuMFhHbQ?oc=5" target="_blank" rel="noopener">Hospitality dealmakers pursued ‘bigger, higher-conviction’ M&amp;A in H1 2026</a>
-    <p class="card-sum">Hospitality dealmakers pursued ‘bigger, higher-conviction’ M&amp;A in H1 2026&amp;nbsp;&amp;nbsp;Hotel Dive</p>
-    <div class="card-foot">
-      <span class="co-tag">Hospitality M&amp;A</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="hanwha defense usa bids up to $1.2b for austal usa amid shipbuilder loss hanwha defense hanwha defense usa bids up to $1.2b for austal usa amid shipbuilder loss&amp;nbsp;&amp;nbsp;naval news">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#7C3AED" title="Hanwha Defense">HD</div></div>
+    <div class="lw"><div class="avatar" style="background:#7C3AED" title="Aurora Cannabis">AC</div></div>
     <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
   </div>
   <div class="card-body">
@@ -545,28 +599,10 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
       <span class="card-date">11 Aug 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPT29zTFpKaUgxUEZBRm9temUtOE93S0pveTUwWkx6aHVzMm9NYkpUU2ZoN0ZWUEJqYmhrOXVWakhfZzNyUEpCVEs2N0ZiSWdZMUlqekl0YXpRNXZ3RWVudEU1a2RKYnI5S3E2NWxVeS1FN3FxTWxrTklKZ2dXR2x4Q0xNOWdsRkI4dXVOZzZmdnN1WnhuUEhiNA?oc=5" target="_blank" rel="noopener">Hanwha Defense USA Bids up to $1.2B for Austal USA Amid Shipbuilder Loss</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>$1.2B</div><p class="card-sum">Hanwha Defense USA Bids up to $1.2B for Austal USA Amid Shipbuilder Loss&amp;nbsp;&amp;nbsp;Naval News</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMilwJBVV95cUxNeFdkZndmamdKX01nRmlyREFVYzhSdVF4WGJUMkNRdWtYUGo2V24yMGdaajlIQzRDOWJRRGlQRkpxekl3bXBBVzktbFdKVDBYTTd2N0VnSl9wR3NRV3JuRHRXOUl4ZHpmdHpETXZjTWJyemp3VTladk1POUQyV1VwQ3JUaVA3NnJBY0V6dnlRcDluelYtclVwR0tFLTc0TGtjWU9yMmxDNmxOWk02X00xM1pwZ0NKQkFUbXUxNG1ydnhEbzRtUjZWbW45clBGbHduaThOQ1pVaGc1MkMyWUpLRFNpY1hMRkt1YjROMTQxMkdKSzF2NmJQX19wWC0tS21sRHJpbEwyMzB5bEMtWUk5Y0R2aDcxa1E?oc=5" target="_blank" rel="noopener">Aurora Cannabis Rejects Curaleaf’s Claim It Refused to Engage in Acquisition Proposal</a>
+    <p class="card-sum">Aurora Cannabis Rejects Curaleaf’s Claim It Refused to Engage in Acquisition Proposal&amp;nbsp;&amp;nbsp;Cannabis Business Times</p>
     <div class="card-foot">
-      <span class="co-tag">Hanwha Defense</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Earnings" data-text="us stock market could ride earnings strength to more gains after s&amp;p 500 hits record us stock market could ride us stock market could ride earnings strength to more gains after s&amp;p 500 hits record&amp;nbsp;&amp;nbsp;reuters">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DC2626" title="US stock market could ride">U</div></div>
-    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
-      <span class="card-date">05 Aug 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRDhYYlFmZ3FHcjh0dS1TQ2Z3ampQM2tjSmZha3pHMzhVelB5Q0xzTE8zVThKM1haMFVuTWlpNkFXUHA3WlRORjE0NFhBcExMS1hWeVRIbUtxU3RmbEI2NS1FNmNtamhnZXY5QXlUa1FGN1FMRWc4cF9PMVVJM0pfeEFWQmJfY291UFVtLWFiN292QzMzQjNRQWFmY0RIeDBLQlZKS1dPbEZUMDVidHI3d1RSNkVqYjhlX2Y0Z295M3hDb0k?oc=5" target="_blank" rel="noopener">US stock market could ride earnings strength to more gains after S&amp;P 500 hits record</a>
-    <p class="card-sum">US stock market could ride earnings strength to more gains after S&amp;P 500 hits record&amp;nbsp;&amp;nbsp;Reuters</p>
-    <div class="card-foot">
-      <span class="co-tag">US stock market could ride</span>
+      <span class="co-tag">Aurora Cannabis</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
@@ -589,20 +625,38 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="astrazeneca in talks with bristol myers squibb on $400 billion megadeal, ft reports astrazeneca astrazeneca in talks with bristol myers squibb on $400 billion megadeal, ft reports&amp;nbsp;&amp;nbsp;cnbc">
+<div class="card" data-activity="Earnings" data-text="spacex boosted revenue but isn&#x27;t profitable, first-ever earnings report shows - abc news spacex boosted spacex boosted revenue but isn&#x27;t profitable, first-ever earnings report shows&amp;nbsp;&amp;nbsp;abc news - breaking news, latest news and videos">
   <div class="card-side">
-    <div class="lw" title="Astrazeneca"><img src="https://logo.clearbit.com/astrazeneca.com" alt="Astrazeneca" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#7C3AED;display:none">A</div></div>
+    <div class="lw"><div class="avatar" style="background:#D97706" title="SpaceX boosted">S</div></div>
+    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
+      <span class="card-date">04 Aug 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNMGl3bVhNVVpvSnhTTzFheWFsSkJqWkJsVEgtMUlBZjBJWkk2X19OS2JEY0tKdDFfMjRpUS14cDhCTG5nQVlIc09UMXlneXNka2tKcGUxbmxBdU90b3Nsc2ZmdExmbjN1aTFnYkVDMy1lOTFmWk9iQ1VnaGZCYXp0ajNPX0FjWGhoWkhhVmNGcTY0NmtUXzZEVzVyTkQ3UzjSAaQBQVVfeXFMTUI4dXF2UzNpRThfT00wMW04Vm5IZFlLeUlMdlU2WUtnWWllSG5neTM3SnhTRVFLSGttOW9pQ1NmSm1VRVpXNzlFLW5XSE9ySEl3alBUZGxQTzNPUldHY0hNczJ4Z2JfbnAwVV9EdzVnYlNBLVhQNHU3ako2WmowWTZDUUQ4VFM4OUh3V2lqdlRUcHRlX0h5bThPUGhzdlA5d0NGMmY?oc=5" target="_blank" rel="noopener">SpaceX boosted revenue but isn&#x27;t profitable, first-ever earnings report shows - ABC News</a>
+    <p class="card-sum">SpaceX boosted revenue but isn&#x27;t profitable, first-ever earnings report shows&amp;nbsp;&amp;nbsp;ABC News - Breaking News, Latest News and Videos</p>
+    <div class="card-foot">
+      <span class="co-tag">SpaceX boosted</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="magnificent 7 results set to test broadening us stock market magnificent us magnificent 7 results set to test broadening us stock market&amp;nbsp;&amp;nbsp;reuters">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#0891B2" title="Magnificent US">MU</div></div>
     <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">02 Aug 2026</span>
+      <span class="card-date">29 Jul 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQemlpUVZvYjZlTkR4cWxEZ0d4M2thWW5nX3p1X2Rhb1NrQ3ZFc3hfb3JSOGY2WHJRZ0VWVlNDSDV4NEhGaFhMaDFPTG9EejV6TTJLYjdDdTA0QUZ3a0hTZFRqUVA4QVZNVEs1cUVIR0t5QXBoNGVQWUREcEx6bG01M3c3NWZKazJtNnpBU2M3ZzRrS3pfb2xtcU1mU0tUbHV5T1ZYUkNB0gGrAUFVX3lxTE1mektIeHVLTTFZZ2ZWLXJfTkFFQm9xaThmSUJsa0M2OHpzMkoyay1FTUxzOWp5RDF1S20tUV9nOFVWMERqODN1YWZPVnFZTXBZWngxS0FudzlrT1U4NUVTa0F5SjJsV3F5bzdFeE9mUDluai1HZUZDaHFWQTRJTG9MSk8zVUNnSWpOdGpOeDY0RzBkLW8tQ3dkVWt3cVJ6aDBjN1dLZnJieFNDNA?oc=5" target="_blank" rel="noopener">AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>$400 billion</div><p class="card-sum">AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports&amp;nbsp;&amp;nbsp;CNBC</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPemNkZTJ3bTBNZXJZTXoyUm0yai0xOXA2dTh3VG9MemI4V0hzeHN0UU8wY205SHR1LUVnaGdoU1hDRmZFZWhpZ00xeFJRUWljR004bVcxVnJCR09fYUdxZFU3RU9BQ3I0T1FjXy1xTGZscmRTWlZBUEI2RkZDeEVsY3ZZQnYwZ2hBQ1VDTklXZVV2OHBhT0VvRFVwbk5zWXI2OUFrWA?oc=5" target="_blank" rel="noopener">Magnificent 7 results set to test broadening US stock market</a>
+    <p class="card-sum">Magnificent 7 results set to test broadening US stock market&amp;nbsp;&amp;nbsp;Reuters</p>
     <div class="card-foot">
-      <span class="co-tag">Astrazeneca</span>
+      <span class="co-tag">Magnificent US</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
@@ -625,38 +679,20 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="mapfre to acquire safety insurance for $1.54 billion amid shareholder probe mapfre to mapfre to acquire safety insurance for $1.54 billion amid shareholder probe&amp;nbsp;&amp;nbsp;insurance business">
+<div class="card" data-activity="IPO" data-text="stockwatch: axiom ceo explains plans for hong kong ipo stockwatch axiom stockwatch: axiom ceo explains plans for hong kong ipo&amp;nbsp;&amp;nbsp;genetic engineering and biotechnology news">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="MAPFRE to">M</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+    <div class="lw"><div class="avatar" style="background:#7C3AED" title="StockWatch Axiom">SA</div></div>
+    <span class="act-dot" style="background:#059669" title="IPO"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">24 Jul 2026</span>
+      <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
+      <span class="card-date">27 Jul 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMm5qdDhQLTAwalMxdEZDVnpqaHFZZkkyWTZoTGlrRC05TzNhVW9nT1d4NkEyZzNzemZ2NWNfMWtSRWhvdEh6Zk5KTEVNMlQ1Z1g4LUdwa2VMRXVLVGc2aVlfZkhOTXlkV1d3MUJENFNFN1h6czU0UTJfd2JDcm9fb3NSejRvUTVDODdZT0xWTHVxT2RMM0VuQUtMZ0NxbVl6aTkxcE8wS3A3LUlieWc2MG94QTdUazdWSzBNbjVaaUhmVGFMZHd2VWoyaHBlMXFOLWhmYUZ3a3U2dnpPSjN3Q2VnY3pVYWs?oc=5" target="_blank" rel="noopener">MAPFRE to acquire Safety Insurance for $1.54 billion amid shareholder probe</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>$1.54 billion</div><p class="card-sum">MAPFRE to acquire Safety Insurance for $1.54 billion amid shareholder probe&amp;nbsp;&amp;nbsp;Insurance Business</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQN2lwc0lieko4eVZSdmM2THFlRlRSM1FJUkhUZjFRc3FKUDdzRjloTXZ2VGFpUW5TRXhVcFBfZHVlYmdOLXZNYW1sT2dvV09mc0JBVG9KT0hXMVpiQXBaQ0tiSVlsZ29hX2pGT0p2U3drZV9KOGVRNzNhU0dRVm5WdEV4cjhCR3duOEtQMUlSdVdJM1c4M0FjVVF5M0ZoLXJyd2JfdHpvZGtNLUpoX3MyZg?oc=5" target="_blank" rel="noopener">StockWatch: Axiom CEO Explains Plans for Hong Kong IPO</a>
+    <p class="card-sum">StockWatch: Axiom CEO Explains Plans for Hong Kong IPO&amp;nbsp;&amp;nbsp;Genetic Engineering and Biotechnology News</p>
     <div class="card-foot">
-      <span class="co-tag">MAPFRE to</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Company News" data-text="us cross-border m&amp;a: mid-year outlook us m&amp;a us cross-border m&amp;a: mid-year outlook&amp;nbsp;&amp;nbsp;torys llp">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#D97706" title="US M&amp;A">UM</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">22 Jul 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNOGZxRThiVkFLM2FYc3pLQTktVEc2aUpmNHU3RU0yS3dKLVpteVpYc1RWTk5WTGxhTUJJeUg4TFpubVJFWkdtWUNMMjBMSGhvc21RemtRdHNlLTRhejJtVzZBeVRscHhBbTgtM2VMT2JTN1BoaXUxSFdGYkdKLWlVaG00OWFrWmZOUjB4Rg?oc=5" target="_blank" rel="noopener">US cross-border M&amp;A: mid-year outlook</a>
-    <p class="card-sum">US cross-border M&amp;A: mid-year outlook&amp;nbsp;&amp;nbsp;Torys LLP</p>
-    <div class="card-foot">
-      <span class="co-tag">US M&amp;A</span>
+      <span class="co-tag">StockWatch Axiom</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
@@ -751,56 +787,38 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="cursor deal puts us on track for record startup m&amp;a year cursor deal cursor deal puts us on track for record startup m&amp;a year&amp;nbsp;&amp;nbsp;crunchbase news">
+<div class="card" data-activity="IPO" data-text="momenta moves closer to hong kong ipo after us listing setback momenta moves closer to hong kong momenta moves closer to hong kong ipo after us listing setback&amp;nbsp;&amp;nbsp;south china morning post">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#D97706" title="Cursor Deal">CD</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+    <div class="lw"><div class="avatar" style="background:#7C3AED" title="Momenta moves closer to Hong Kong">MH</div></div>
+    <span class="act-dot" style="background:#059669" title="IPO"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">25 Jun 2026</span>
+      <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
+      <span class="card-date">19 Jun 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPNFpYVXNNbnJsNkRQTm5zeGpfT1lFUE5EVnAzZlh0YmFBTF9KRHR0LXZWSHp1MnNXcHdtTFZLSmJ2dFBnVjlnTHl0T3J6R1VIS0tGemFPMHU3STJ0Y0VPY3EyZk1vLS1zZ0JVc2NmeDJobjI1NmlHdzBTRVdCQS1pWDl3?oc=5" target="_blank" rel="noopener">Cursor Deal Puts US On Track For Record Startup M&amp;A Year</a>
-    <p class="card-sum">Cursor Deal Puts US On Track For Record Startup M&amp;A Year&amp;nbsp;&amp;nbsp;Crunchbase News</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOcWhMYXY2cmFUQ0hDdTNsTFB6RGhIQkhCX2Q5UDlWWTNJN2sydTZaQng1d2w3VUp1N1hDWjFqQWJTelVGeGtnNlFvcTBJN1JzTmIwMlFJeVhFUWVqZnpMWkcweVFPaGtOWU9Nd09oVmN0bUFlZ3JUV2ZuekRKUlRCdnZ3dWNIcTdrNWhiaUpJZUsydTA2ekR0dVZpVkdpa1lCV0NtVXo2UHE0UXJRQW5tNDBzZDhQcEpybTFHQdIBvAFBVV95cUxOMkpMcTJ4N2NyUTIwb1VLWE10OFBvbXVYbUVGX0lwczdPNGQtUkhpR0E0MTRTV3cyMWNCUTFSbVhfNmF1QkdfUVVUV0pWamVOSGgyTUhhQk0yaThzTFNYQkdUcFhPUENWSDFKbXlqbjJmQnc4MU9IUXY0LW1PeWhOX2FMdThyYUQyc2lScWp1UkZMemE5dlVpbG9SUmNabkR2RDU2RTllWGZyZTZhWEdnSW4xV082VkZ1M0VzRw?oc=5" target="_blank" rel="noopener">Momenta moves closer to Hong Kong IPO after US listing setback</a>
+    <p class="card-sum">Momenta moves closer to Hong Kong IPO after US listing setback&amp;nbsp;&amp;nbsp;South China Morning Post</p>
     <div class="card-foot">
-      <span class="co-tag">Cursor Deal</span>
+      <span class="co-tag">Momenta moves closer to Hong Kong</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="spirit airlines acquisition bid submitted by mooney international, company says spirit airlines spirit airlines acquisition bid submitted by mooney international, company says&amp;nbsp;&amp;nbsp;cbs news">
+<div class="card" data-activity="IPO" data-text="musk&#x27;s spacex prices record $75 billion ipo at $135 a share musk spacex musk&#x27;s spacex prices record $75 billion ipo at $135 a share&amp;nbsp;&amp;nbsp;reuters">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#059669" title="Spirit Airlines">SA</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+    <div class="lw"><div class="avatar" style="background:#D97706" title="Musk SpaceX">MS</div></div>
+    <span class="act-dot" style="background:#059669" title="IPO"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">14 Jun 2026</span>
+      <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
+      <span class="card-date">12 Jun 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPM3MxRFVvbzZvX0dwSWtFeTNxeGtqLW1MeTRjTnNfdTBLUkxhR09NLS1PMmNyS3NvZEg3WHBWazlZUzk4eVE3NnUtVXBWZFRYTkRZd2psaUItY2s5Qk1xbk1zcWlLUUU5R2ZSZGhsTXN5RE5jQXh5NkpjNkEzX3NOT0szMTJIQTd1b01aaUlYRzU1bDdvYmhPelRjSEwwRTVEenZXUlFhZWs2c2xRdDBEZW5Ybkk?oc=5" target="_blank" rel="noopener">Spirit Airlines acquisition bid submitted by Mooney International, company says</a>
-    <p class="card-sum">Spirit Airlines acquisition bid submitted by Mooney International, company says&amp;nbsp;&amp;nbsp;CBS News</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ29nNW1EaG5SNGNjOWFzb2VLbVJyWnVLN1VFMF9ORi1DOGhFd0xNa29ocDdqT0ZwVGVwRXd1VkNrYzJ4NUV6MURUNWVlaU9sUFBGWmN4TjEzT0VWNGJfSGFDZ1FVZVo4LW80a0JfX3NnRlpydTBNMUFYaVVSM0xvMnVIdGU0RlRITzN2RjRHdXVBUzI3dk8tdQ?oc=5" target="_blank" rel="noopener">Musk&#x27;s SpaceX prices record $75 billion IPO at $135 a share</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>$75 billion</div><p class="card-sum">Musk&#x27;s SpaceX prices record $75 billion IPO at $135 a share&amp;nbsp;&amp;nbsp;Reuters</p>
     <div class="card-foot">
-      <span class="co-tag">Spirit Airlines</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="lcc interest: us company may bid for easyjet ownership after spirit airlines’ talks failed lcc interest lcc interest: us company may bid for easyjet ownership after spirit airlines’ talks failed&amp;nbsp;&amp;nbsp;simple flying">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#1D4ED8" title="LCC Interest">LI</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">11 Jun 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMikAFBVV95cUxPM2hKYWE1ZW43YlIzN0xPRUxJdmNrU192UUJyd040Wnl3Z09IMkVVbHJIZmtyeU1FNlAtMm5NWWw4QVo0eTZHTWxmRk9ibGdRV1YyLXEwbmRXRWFLeVFhZV93MlpidExrNGZhVkI2NnU1RmV4STN0S0dSOG5YejMyZDU2Q3BIS3VRRDlOR2FuMUg?oc=5" target="_blank" rel="noopener">LCC Interest: US Company May Bid For easyJet Ownership After Spirit Airlines’ Talks Failed</a>
-    <p class="card-sum">LCC Interest: US Company May Bid For easyJet Ownership After Spirit Airlines’ Talks Failed&amp;nbsp;&amp;nbsp;Simple Flying</p>
-    <div class="card-foot">
-      <span class="co-tag">LCC Interest</span>
+      <span class="co-tag">Musk SpaceX</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
@@ -823,6 +841,42 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
+<div class="card" data-activity="Company News" data-text="spacex blocked from early u.s. benchmark index entry as s&amp;p reaffirms existing rules spacex s&amp;p spacex blocked from early u.s. benchmark index entry as s&amp;p reaffirms existing rules&amp;nbsp;&amp;nbsp;cnbc">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#0891B2" title="SpaceX S&amp;P">SS</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">04 Jun 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQYU4xcldvdmNCUTZ6eHdCS1BFV1d3YW03cDFkbTN6OHZ0LTRXVEs1OWs1S3B1Tms0NU5BYmdvcEEybjdySm1SUk51dWxxX2hRN1ExVjRZWjF2OHJBbkVCaTc5RlRQR3BPTmkxOG1HbHh5VVoyWFA2TGJhN0JReFptNFU0VVMtVkhRdGtYVzVXM2JFaEJNY0FKTFg5RDcyQlJIdEFQZm1DU1hSY3J3OXRCeG9xWno1NWxaSHfSAb8BQVVfeXFMTm1Bd0tTWE45TExTSGU2aWhHUTJnMG9GWkZGZGNSR1hUVVZKakc5WFh2WXNWSF9seTlBU1RzYkZmTC12WlZNQk12OFRNYjF6dmZCVUlobHUtUjNVMHY5dDlGM09VV2JZYW1YYml5MWFmLVlyaG1pVlJ2b0hsYnA2UFBiQmw3VmlHOXZWUnFBQ3RkU09ScnlERk9fV1JTSUhsb3h4aHp6eWI3THZBQnUzMGtnYk0tYUNmZDcwUlBBQ1U?oc=5" target="_blank" rel="noopener">SpaceX blocked from early U.S. benchmark index entry as S&amp;P reaffirms existing rules</a>
+    <p class="card-sum">SpaceX blocked from early U.S. benchmark index entry as S&amp;P reaffirms existing rules&amp;nbsp;&amp;nbsp;CNBC</p>
+    <div class="card-foot">
+      <span class="co-tag">SpaceX S&amp;P</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="ai giant anthropic plans to sell shares in us as valuation nears $1tn anthropic ai giant anthropic plans to sell shares in us as valuation nears $1tn&amp;nbsp;&amp;nbsp;bbc">
+  <div class="card-side">
+    <div class="lw" title="Anthropic"><img src="https://logo.clearbit.com/anthropic.com" alt="Anthropic" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#1D4ED8;display:none">A</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">02 Jun 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aaHF3bV9sYmhXaTNvN0ZRRkI1clo3NnNCRUJLTVA0c2xWMVQ4RDlZR2ZlQUdSeXF3Z2prX0M1dU84S2I2enJJdV9uZzdGNWxuOTBqOE9Vai1RQQ?oc=5" target="_blank" rel="noopener">AI giant Anthropic plans to sell shares in US as valuation nears $1tn</a>
+    <p class="card-sum">AI giant Anthropic plans to sell shares in US as valuation nears $1tn&amp;nbsp;&amp;nbsp;BBC</p>
+    <div class="card-foot">
+      <span class="co-tag">Anthropic</span>
+      <span class="src-tag" style="color:#1D4ED8">Google News</span>
+    </div>
+  </div>
+</div>
 <div class="card" data-activity="IPO" data-text="ai giant anthropic prepares to sell stock to the public, files preliminary ipo paperwork anthropic ai giant anthropic prepares to sell stock to the public, files preliminary ipo paperwork&amp;nbsp;&amp;nbsp;npr">
   <div class="card-side">
     <div class="lw" title="Anthropic"><img src="https://logo.clearbit.com/anthropic.com" alt="Anthropic" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#1D4ED8;display:none">A</div></div>
@@ -837,24 +891,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     <p class="card-sum">AI giant Anthropic prepares to sell stock to the public, files preliminary IPO paperwork&amp;nbsp;&amp;nbsp;NPR</p>
     <div class="card-foot">
       <span class="co-tag">Anthropic</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="u.s. reit mergers &amp; acquisitions led by public-to-public consolidation u.s. reit u.s. reit mergers &amp; acquisitions led by public-to-public consolidation&amp;nbsp;&amp;nbsp;nareit">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#1D4ED8" title="U.S. REIT">UR</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">26 May 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQd2NkeldZZ0ZpR1RXN3lWLUJPOVh3UDhNQU9fQmowUFdrbF9MRzk4d0g5N3dKS2EzVk85VDN6MG0xZEtER0REYjU2MFZmMmU4azFrNVUxOXIxQkZkQlJ6YU5aekppY21VWWhGT1ctSkFNSWR3emRzV2Nhc2VvZm5BRnk2ZXJZSkNYdmhpR0lGSnN2YmRzazRTdHA0Vjhac3NMMjk0VGFITGI0ZVFOT3c?oc=5" target="_blank" rel="noopener">U.S. REIT Mergers &amp; Acquisitions Led by Public-to-Public Consolidation</a>
-    <p class="card-sum">U.S. REIT Mergers &amp; Acquisitions Led by Public-to-Public Consolidation&amp;nbsp;&amp;nbsp;Nareit</p>
-    <div class="card-foot">
-      <span class="co-tag">U.S. REIT</span>
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
@@ -895,24 +931,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="caesars considering buyout bids, including one from tilman fertitta caesars considering caesars considering buyout bids, including one from tilman fertitta&amp;nbsp;&amp;nbsp;casino.org">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Caesars Considering">CC</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">27 Feb 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPTDQxekw4S056QlNOM0dsOEhuYnRvMUsyVXpub29YNUtndlk4eUF4THNZeU1KcFRoMFI3Z2lfbFB0WGk1ZDJEd1RRX3pSZUMzeGgtUUJGc3hUblZMR0VidUR5R3MxWTdQczJnV3NISldHd3NncUx5Q1R0YkpUTjAwY1RiTzFmY2ttTmZLeFl6VFFoVFRHdGtvX1pHcw?oc=5" target="_blank" rel="noopener">Caesars Considering Buyout Bids, Including One From Tilman Fertitta</a>
-    <p class="card-sum">Caesars Considering Buyout Bids, Including One From Tilman Fertitta&amp;nbsp;&amp;nbsp;Casino.org</p>
-    <div class="card-foot">
-      <span class="co-tag">Caesars Considering</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
 <div class="card" data-activity="IPO" data-text="what asia’s market initiatives and nasdaq’s new rules mean for asian companies eyeing u.s. listings in 2026 what asia what asia’s market initiatives and nasdaq’s new rules mean for asian companies eyeing u.s. listings in 2026&amp;nbsp;&amp;nbsp;loeb &amp; loeb llp">
   <div class="card-side">
     <div class="lw"><div class="avatar" style="background:#059669" title="What Asia">WA</div></div>
@@ -930,42 +948,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
       <span class="src-tag" style="color:#1D4ED8">Google News</span>
     </div>
   </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="trump says cnn &#x27;should be sold&#x27; as parent company faces acquisition trump cnn trump says cnn &#x27;should be sold&#x27; as parent company faces acquisition&amp;nbsp;&amp;nbsp;usa today">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Trump CNN">TC</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">10 Dec 2025</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQkR0NkdzRGl4WHRHZEthQ09uQ1VIQUxHenZZM0xCV3FIRHRpWkhKT2lFRWdxOG1HeWhsb3hsUWJUa0E5cy0temxmR2NXenhQelloOHY0NkkyN1lIeHBoOUcxSGVvMVZ4bGVhZGNRdWNKamxldWxnVmJEb1dYQjk3UGpValM5eEVOM0JzLU5YTTBrV1pnWFc0VzlLNUhRMlhsREdmMUk5cDlxZW5FTUVFbDRUXzRvb09KdEw1eGwzeEsyZw?oc=5" target="_blank" rel="noopener">Trump says CNN &#x27;should be sold&#x27; as parent company faces acquisition</a>
-    <p class="card-sum">Trump says CNN &#x27;should be sold&#x27; as parent company faces acquisition&amp;nbsp;&amp;nbsp;USA Today</p>
-    <div class="card-foot">
-      <span class="co-tag">Trump CNN</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="paramount makes us$108.4bn hostile bid to hijack netflix’s wbd acquisition netflix paramount makes us$108.4bn hostile bid to hijack netflix’s wbd acquisition&amp;nbsp;&amp;nbsp;sportspro">
-  <div class="card-side">
-    <div class="lw" title="Netflix"><img src="https://logo.clearbit.com/netflix.com" alt="Netflix" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#059669;display:none">N</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">09 Dec 2025</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOMHRKX0pNVF83Um1Md2Z3alk1WG5rSmxncmRGV3cxbTZQaDA0VGhSWDE4OFZ6ZmN1SUZNd1RqdE5iLW5mMjk4WV8tLS1jU3BxVFA3MmZqSE5NWGR6d0VkVHJJMUJfcGtKMjFCbVNBRXFfdEdQdXpWZzlyLUpRYXg3THEwN1p6ZUJoSjZiMjI1U0pubWJiTWFLcTk5VndzVTliV2xKUGh4WW9aOG1tdWE1TXZn?oc=5" target="_blank" rel="noopener">Paramount makes US$108.4bn hostile bid to hijack Netflix’s WBD acquisition</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>US$108.4bn</div><p class="card-sum">Paramount makes US$108.4bn hostile bid to hijack Netflix’s WBD acquisition&amp;nbsp;&amp;nbsp;SportsPro</p>
-    <div class="card-foot">
-      <span class="co-tag">Netflix</span>
-      <span class="src-tag" style="color:#1D4ED8">Google News</span>
-    </div>
-  </div>
 </div></div>
   <div class="empty-filter" id="empty-us" style="display:none">No articles match this filter.</div>
 </div><div id="panel-gb" class="panel" style="display:none">
@@ -974,11 +956,65 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
       <span class="panel-flag">🇬🇧</span>
       <div><div class="panel-name">Great Britain</div><div class="panel-count">59 articles today</div></div>
     </div>
-    <div class="flt-bar"><button class="flt on" data-act="all" onclick="flt(this,'all','gb')">All <span>59</span></button><button class="flt" data-act="Company News" onclick="flt(this,'Company News','gb')">Company News <span>24</span></button><button class="flt" data-act="Earnings" onclick="flt(this,'Earnings','gb')">Earnings <span>5</span></button><button class="flt" data-act="M&amp;A" onclick="flt(this,'M&amp;A','gb')">M&amp;A <span>22</span></button><button class="flt" data-act="IPO" onclick="flt(this,'IPO','gb')">IPO <span>8</span></button></div>
+    <div class="flt-bar"><button class="flt on" data-act="all" onclick="flt(this,'all','gb')">All <span>59</span></button><button class="flt" data-act="Company News" onclick="flt(this,'Company News','gb')">Company News <span>26</span></button><button class="flt" data-act="Earnings" onclick="flt(this,'Earnings','gb')">Earnings <span>4</span></button><button class="flt" data-act="M&amp;A" onclick="flt(this,'M&amp;A','gb')">M&amp;A <span>22</span></button><button class="flt" data-act="IPO" onclick="flt(this,'IPO','gb')">IPO <span>7</span></button></div>
   </div>
-  <div class="grid" id="grid-gb"><div class="card" data-activity="Company News" data-text="what is php and why did it spark a global cyber-security scramble? what php ai uncovered long-hidden programming flaws, triggering a rare global cyber-security response.">
+  <div class="grid" id="grid-gb"><div class="card" data-activity="Company News" data-text="white house lifts tariffs on some canadian goods as midterm elections loom white house from 30 october, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#D97706" title="What PHP">WP</div></div>
+    <div class="lw"><div class="avatar" style="background:#0891B2" title="White House">WH</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">24 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">White House lifts tariffs on some Canadian goods as midterm elections loom</a>
+    <p class="card-sum">From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.</p>
+    <div class="card-foot">
+      <span class="co-tag">White House</span>
+      <span class="src-tag" style="color:#B91C1C">BBC Business</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="how does the uk state pension compare with other countries? how uk do british pensioners have it better or worse than those in other countries?">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#9333EA" title="How UK">HU</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">24 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">How does the UK state pension compare with other countries?</a>
+    <p class="card-sum">Do British pensioners have it better or worse than those in other countries?</p>
+    <div class="card-foot">
+      <span class="co-tag">How UK</span>
+      <span class="src-tag" style="color:#B91C1C">BBC Business</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="uk to invest £100m in &#x27;world first&#x27; ai biosecurity lab uk ai the chancellor will unveil ai spending aimed at shoring up the uk&#x27;s defences in wednesday&#x27;s budget.">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#059669" title="UK AI">UA</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">24 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">UK to invest £100m in &#x27;world first&#x27; AI Biosecurity Lab</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>£100m</div><p class="card-sum">The chancellor will unveil AI spending aimed at shoring up the UK&#x27;s defences in Wednesday&#x27;s Budget.</p>
+    <div class="card-foot">
+      <span class="co-tag">UK AI</span>
+      <span class="src-tag" style="color:#B91C1C">BBC Business</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="civil servant who juggled five jobs says he was &#x27;surprised&#x27; to be charged with fraud civil kashim chowdhury denied being dishonest when not telling employers he had other jobs.">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="Civil">C</div></div>
     <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
@@ -986,10 +1022,10 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
       <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
       <span class="card-date">23 Oct 2026</span>
     </div>
-    <a class="card-title" href="https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">What is PHP and why did it spark a global cyber-security scramble?</a>
-    <p class="card-sum">AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.</p>
+    <a class="card-title" href="https://www.bbc.co.uk/news/articles/c6lykzwjkj1eo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Civil servant who juggled five jobs says he was &#x27;surprised&#x27; to be charged with fraud</a>
+    <p class="card-sum">Kashim Chowdhury denied being dishonest when not telling employers he had other jobs.</p>
     <div class="card-foot">
-      <span class="co-tag">What PHP</span>
+      <span class="co-tag">Civil</span>
       <span class="src-tag" style="color:#B91C1C">BBC Business</span>
     </div>
   </div>
@@ -1045,6 +1081,24 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     <div class="card-foot">
       <span class="co-tag">Lights</span>
       <span class="src-tag" style="color:#B91C1C">BBC Business</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="alfa financial software holdings plc (alfa) equity price and quote alfa financial alfa financial software holdings plc (alfa) equity price and quote&amp;nbsp;&amp;nbsp;london stock exchange">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#7C3AED" title="ALFA FINANCIAL">AF</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">23 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1c3cmRtbUk2NmJMbTN1dDJDUWNDbFdUSVhkNEpibDEyUjF2cmRuQzNpTmYzQ3FldnVOTWp2WEFCS0d0SHF3azZxTUt1WVg2RjN2YnlTOWVoTElPLVpla0p3c1N2dE1LS0ctdEpHUE4tdjk2cjBvNUUxVWVDdXRIdFl1VlBqRkxXZ3NVR0RDRTVyb3ZGRXFjLQ?oc=5" target="_blank" rel="noopener">ALFA FINANCIAL SOFTWARE HOLDINGS PLC (ALFA) Equity Price and Quote</a>
+    <p class="card-sum">ALFA FINANCIAL SOFTWARE HOLDINGS PLC (ALFA) Equity Price and Quote&amp;nbsp;&amp;nbsp;London Stock Exchange</p>
+    <div class="card-foot">
+      <span class="co-tag">ALFA FINANCIAL</span>
+      <span class="src-tag" style="color:#B91C1C">Google News</span>
     </div>
   </div>
 </div>
@@ -1174,57 +1228,21 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="tank barrel production returns to uk after 20 years tank uk the defence secretary says the uk is &quot;back in the business of making weapons&quot; for its armed forces.">
+<div class="card" data-activity="Earnings" data-text="london close: ftse reverses earlier gains; us bank earnings in focus london ftse london close: ftse reverses earlier gains; us bank earnings in focus&amp;nbsp;&amp;nbsp;sharecast.com">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="Tank UK">TU</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+    <div class="lw"><div class="avatar" style="background:#D97706" title="London FTSE">LF</div></div>
+    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">22 Oct 2026</span>
+      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
+      <span class="card-date">13 Oct 2026</span>
     </div>
-    <a class="card-title" href="https://www.bbc.co.uk/news/articles/cm70pj51zdk4o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Tank barrel production returns to UK after 20 years</a>
-    <p class="card-sum">The defence secretary says the UK is &quot;back in the business of making weapons&quot; for its armed forces.</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPMzg4VUFObmxyVFpabFVaYkQ2TFFDZk1IQmwtNnQyY0lmM0F4RlBFekZUN3Bxa253R0w0djJISUJoXzBSU1lDSXJ0cVJMNEw0MW4ycDJkMjN5QWJSbmJFdjNiOF9FRWloMmdWWG9TTDU4WXBZZVdyWF95dnFRZUR5ZHI5anhfR3RfS1FmOXJKTlFoaFd5a2o3R015UmRYRHJKbGQxb3NMWEl1RHMtNU9iRmdqWVRGX0o3WVRNNw?oc=5" target="_blank" rel="noopener">London close: FTSE reverses earlier gains; US bank earnings in focus</a>
+    <p class="card-sum">London close: FTSE reverses earlier gains; US bank earnings in focus&amp;nbsp;&amp;nbsp;Sharecast.com</p>
     <div class="card-foot">
-      <span class="co-tag">Tank UK</span>
-      <span class="src-tag" style="color:#B91C1C">BBC Business</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Company News" data-text="no order, no seat: starbucks china rolls out new store policy no starbucks starbucks says it is improving customers&#x27; in-store experience as it competes with homegrown rivals.">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="No Starbucks">NS</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">22 Oct 2026</span>
-    </div>
-    <a class="card-title" href="https://www.bbc.co.uk/news/articles/ckzd6rjmlzvmo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">No order, no seat: Starbucks China rolls out new store policy</a>
-    <p class="card-sum">Starbucks says it is improving customers&#x27; in-store experience as it competes with homegrown rivals.</p>
-    <div class="card-foot">
-      <span class="co-tag">No Starbucks</span>
-      <span class="src-tag" style="color:#B91C1C">BBC Business</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Company News" data-text="the &#x27;trillion pound&#x27; oil fund the government believes britain could have built the britain for the first time, the treasury calculates how much the uk could have raised by investing north sea proceeds.">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#059669" title="The Britain">TB</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">21 Oct 2026</span>
-    </div>
-    <a class="card-title" href="https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">The &#x27;trillion pound&#x27; oil fund the government believes Britain could have built</a>
-    <p class="card-sum">For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds.</p>
-    <div class="card-foot">
-      <span class="co-tag">The Britain</span>
-      <span class="src-tag" style="color:#B91C1C">BBC Business</span>
+      <span class="co-tag">London FTSE</span>
+      <span class="src-tag" style="color:#B91C1C">Google News</span>
     </div>
   </div>
 </div>
@@ -1458,24 +1476,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     <p class="card-sum">FTSE 100 slips as Relx weighs; WPP, Persimmon gain after results&amp;nbsp;&amp;nbsp;Reuters</p>
     <div class="card-foot">
       <span class="co-tag">FTSE Relx</span>
-      <span class="src-tag" style="color:#B91C1C">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Earnings" data-text="london midday: ftse boosted by miners amid raft of earnings news london ftse london midday: ftse boosted by miners amid raft of earnings news&amp;nbsp;&amp;nbsp;sharecast.com">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#D97706" title="London FTSE">LF</div></div>
-    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
-      <span class="card-date">04 Aug 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNNTNqXy1sUnZLZ1ZOX01IelBycXNIV1pUUEFLenotYVRqUGRDdl9oSThBN2NSb3A1QmJhY0ZWUUVVRk9hWHRNWks2YWlDV3VjdkpvWHZXeUVDLXNnb242UW1qNS1KZExzTUR5VzBKRzllNUZ0TVU4emxzNk1hOUdOUjNlWTY1RW0yeFlWNzlCX2h6NERsUm0yYlJmNHMyTmwyVVNqdjVqV0VkSGFlZW9LOW9oMnRmbEVmbjdNaUxtdS11c084OEhSMElR?oc=5" target="_blank" rel="noopener">London midday: FTSE boosted by miners amid raft of earnings news</a>
-    <p class="card-sum">London midday: FTSE boosted by miners amid raft of earnings news&amp;nbsp;&amp;nbsp;Sharecast.com</p>
-    <div class="card-foot">
-      <span class="co-tag">London FTSE</span>
       <span class="src-tag" style="color:#B91C1C">Google News</span>
     </div>
   </div>
@@ -1786,6 +1786,24 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
+<div class="card" data-activity="M&amp;A" data-text="legal &amp; general soars as takeover talk grips the city... after us rival bids £2.7bn for tate &amp; lyle legal &amp; general soars as legal &amp; general soars as takeover talk grips the city... after us rival bids £2.7bn for tate &amp; lyle&amp;nbsp;&amp;nbsp;this is money">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#0891B2" title="Legal &amp; General soars as">LG</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">15 May 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX2ttNk85aHhTenJUeHhITko3b2hUbGJUb3hGM3RuelZYTGRxajAyemFIbUR4dkl3bmlXY1FfT2pwdW9qcFhVMElPeTc1ZUF3ZzZYalQ2UXEzUnNyRFdzMFktaHFPalN4QzBhYmIwcEpSeVBSekE3WldQREdKWEdRalk1OGZCamYxNm04N3pzRHFLNW5zYzM2WDZrdXlaWVFJdGxIekwtTTJUZU9DMHdJSGZRaGI0U01CX0sxaS1rQzNqeXVGM0tYN25MMDRRUWZGdEwxNWFETQ?oc=5" target="_blank" rel="noopener">Legal &amp; General soars as takeover talk grips the City... after US rival bids £2.7bn for Tate &amp; Lyle</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>£2.7bn</div><p class="card-sum">Legal &amp; General soars as takeover talk grips the City... after US rival bids £2.7bn for Tate &amp; Lyle&amp;nbsp;&amp;nbsp;This is Money</p>
+    <div class="card-foot">
+      <span class="co-tag">Legal &amp; General soars as</span>
+      <span class="src-tag" style="color:#B91C1C">Google News</span>
+    </div>
+  </div>
+</div>
 <div class="card" data-activity="Earnings" data-text="uk&#x27;s ftse 100 climbs on earnings boost, midcaps jump after boe rate hold uk&#x27;s ftse 100 climbs on uk&#x27;s ftse 100 climbs on earnings boost, midcaps jump after boe rate hold&amp;nbsp;&amp;nbsp;reuters">
   <div class="card-side">
     <div class="lw"><div class="avatar" style="background:#D97706" title="UK&#x27;s FTSE 100 climbs on">UF</div></div>
@@ -1858,38 +1876,20 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="saudi player’s takeover bid deadline for uk oil &amp; gas firm gets prolonged saudi uk saudi player’s takeover bid deadline for uk oil &amp; gas firm gets prolonged&amp;nbsp;&amp;nbsp;offshore energy">
+<div class="card" data-activity="Company News" data-text="2025 preliminary results preliminary results 2025 preliminary results&amp;nbsp;&amp;nbsp;investegate">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="Saudi UK">SU</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+    <div class="lw"><div class="avatar" style="background:#9333EA" title="Preliminary Results">PR</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">08 Apr 2026</span>
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">31 Mar 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPc3FDMEpJSzV2ZEtjYTZYd2FLbGhYeGxHX1FERGlWaGtJR05IcmZkVWRYTWl3MktjME9uRlhmTGgtbnNid0t1YTdVczRENWhEbWRFcWZtcWVxRm9LZVIwdzVKTUZISUJQNkZYTlhkR2VfbFVRSXhGLVIxTjdNWE0tclZwNlpWcXlsd25ERjVYZGJadXpZb0hpNUVJZWE1aGNzdk5yUWVOYVdUMmstZnc?oc=5" target="_blank" rel="noopener">Saudi player’s takeover bid deadline for UK oil &amp; gas firm gets prolonged</a>
-    <p class="card-sum">Saudi player’s takeover bid deadline for UK oil &amp; gas firm gets prolonged&amp;nbsp;&amp;nbsp;Offshore Energy</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNcHVTV0NXVFJTYXN2U1kwbEI1OVoxRzhPYmxUWFNQbEM2Rkp4VEg2OWxkM2V1UXpPLWNyWnEtck04LXBVUHEwWVIzcS16Mkc2THdtVmE4UEZEV1BRMTlEc2hCTnhZVnhwMVQ0YTU3N1NoWW9XOFZMOVhFYllPelRRRkJnaVNPYWlXcVByVVV0azNicGdIcFpmVGl0RW1HTmNKU0dyMQ?oc=5" target="_blank" rel="noopener">2025 Preliminary Results</a>
+    <p class="card-sum">2025 Preliminary Results&amp;nbsp;&amp;nbsp;Investegate</p>
     <div class="card-foot">
-      <span class="co-tag">Saudi UK</span>
-      <span class="src-tag" style="color:#B91C1C">Google News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Earnings" data-text="best ftse 100 dividend stocks: lloyds, shell, and rolls-royce raise payouts shell best ftse 100 dividend stocks: lloyds, shell, and rolls-royce raise payouts&amp;nbsp;&amp;nbsp;morningstar">
-  <div class="card-side">
-    <div class="lw" title="Shell"><img src="https://logo.clearbit.com/lloydsbankinggroup.com" alt="Shell" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#1D4ED8;display:none">S</div></div>
-    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
-      <span class="card-date">10 Mar 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPdTJYT2laWEZQZmpicF9JQzVFVExsQ1BYcTB2SExISzBFT3Jydl9qNTBTVDFGV2hpR0xVTzFqbnNRaUtfa2l2Rks5YjdKNHpWdVRCbEd2dEJ1U1VvLVB0bVlpSThLbkkydUM5bGFvSmxkS3kxSGVZaFZSTXBsb0R6bFh3UUtlN0hGNGJLZnAtRWlmVENxaVFUUW5wT3dTREt2NTZlNlpxZm52UVVqSGY5a0VB?oc=5" target="_blank" rel="noopener">Best FTSE 100 Dividend Stocks: Lloyds, Shell, and Rolls-Royce Raise Payouts</a>
-    <p class="card-sum">Best FTSE 100 Dividend Stocks: Lloyds, Shell, and Rolls-Royce Raise Payouts&amp;nbsp;&amp;nbsp;Morningstar</p>
-    <div class="card-foot">
-      <span class="co-tag">Shell</span>
+      <span class="co-tag">Preliminary Results</span>
       <span class="src-tag" style="color:#B91C1C">Google News</span>
     </div>
   </div>
@@ -1984,20 +1984,20 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="‘golden shares’ tactic to prevent kraken swimming for us shores golden kraken ‘golden shares’ tactic to prevent kraken swimming for us shores&amp;nbsp;&amp;nbsp;the observer">
+<div class="card" data-activity="Company News" data-text="packaging giant ds smith heads for blockbuster city comeback packaging ds packaging giant ds smith heads for blockbuster city comeback&amp;nbsp;&amp;nbsp;this is money">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#0891B2" title="Golden Kraken">GK</div></div>
+    <div class="lw"><div class="avatar" style="background:#D97706" title="Packaging DS">PD</div></div>
     <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">24 Jan 2026</span>
+      <span class="card-date">29 Jan 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEwtRENuM1phcEdlSXppR2xVZTNXc095UnZZU3Jfbnd0ZExST3ZsLW91eVZVU1d4bXhETHV2YXZ5eElYcm1yNVFrTC1ITDNKWUtfTnpILTNGSnVLd21MMFpvTExUZXVjcFFyWVM3TVpjYlpzTXp6bkRIU1lEQVBZaE9SdjZNX2Iwcm55Wmk5UzBvdFdmR2RpYkdqMk44UDctQ0FqVHBZZHBjZw?oc=5" target="_blank" rel="noopener">‘Golden shares’ tactic to prevent Kraken swimming for US shores</a>
-    <p class="card-sum">‘Golden shares’ tactic to prevent Kraken swimming for US shores&amp;nbsp;&amp;nbsp;The Observer</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaUIwdUV4SVhWZHZZSjhLMnJNVlNneUZYamNjV0N4czFobEtqbUlnanlpN3N5aElhckg1dThXaEkxcEdHRktSWlc0cjJrejdrSVluWE5FN29pYVJjSVBQcDUtcDFGMlM2ZHY0eUM2SkUwX3ZBdm5ieEcyTzNEVVJJTFZ2N3N3NXY2ekptbEQ4RWp0ekFmOGVsOXNaaHcyXzRRMTZMMXdHeVYxdVdsdS1XcXAybklXQUZTNDdzRzdrNHJ2VXlXTnVDaXJJZDhBZFF2b2o5WXpsOWVrN096alE?oc=5" target="_blank" rel="noopener">Packaging giant DS Smith heads for blockbuster City comeback</a>
+    <p class="card-sum">Packaging giant DS Smith heads for blockbuster City comeback&amp;nbsp;&amp;nbsp;This is Money</p>
     <div class="card-foot">
-      <span class="co-tag">Golden Kraken</span>
+      <span class="co-tag">Packaging DS</span>
       <span class="src-tag" style="color:#B91C1C">Google News</span>
     </div>
   </div>
@@ -2019,33 +2019,15 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
       <span class="src-tag" style="color:#B91C1C">Google News</span>
     </div>
   </div>
-</div>
-<div class="card" data-activity="IPO" data-text="princes group unveils london listing in major vote of confidence in uk economy princes group princes group unveils london listing in major vote of confidence in uk economy&amp;nbsp;&amp;nbsp;gov.uk">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#7C3AED" title="Princes Group">PG</div></div>
-    <span class="act-dot" style="background:#059669" title="IPO"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
-      <span class="card-date">31 Oct 2025</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNQnE1bXN6YWQtSzByeG5HeHlGR0FENnpIVFEzeWUwclk4QmxvR1lvMDNOUjVsU2UzbS0zYXRNY2pCczk1aHJsZkhjbU9rblZXN3lDdlhpM2wzX2p3UjNFbnlLUHllYzhYY3k4OTNxTVozX2hrbFU0YlJ4NEVQYUNPbzJtQVIxZHBCeGtMeEhOajBjTk42TVlwelN1Nm90LWJWS2Jxbmpvc0lTbE5ieFNyMFZXYw?oc=5" target="_blank" rel="noopener">Princes Group unveils London listing in major vote of confidence in UK economy</a>
-    <p class="card-sum">Princes Group unveils London listing in major vote of confidence in UK economy&amp;nbsp;&amp;nbsp;GOV.UK</p>
-    <div class="card-foot">
-      <span class="co-tag">Princes Group</span>
-      <span class="src-tag" style="color:#B91C1C">Google News</span>
-    </div>
-  </div>
 </div></div>
   <div class="empty-filter" id="empty-gb" style="display:none">No articles match this filter.</div>
 </div><div id="panel-cn" class="panel" style="display:none">
   <div class="panel-hdr" style="--mc:#B45309">
     <div class="panel-hdr-left">
       <span class="panel-flag">🇨🇳</span>
-      <div><div class="panel-name">China</div><div class="panel-count">81 articles today</div></div>
+      <div><div class="panel-name">China</div><div class="panel-count">80 articles today</div></div>
     </div>
-    <div class="flt-bar"><button class="flt on" data-act="all" onclick="flt(this,'all','cn')">All <span>81</span></button><button class="flt" data-act="M&amp;A" onclick="flt(this,'M&amp;A','cn')">M&amp;A <span>44</span></button><button class="flt" data-act="IPO" onclick="flt(this,'IPO','cn')">IPO <span>15</span></button><button class="flt" data-act="Company News" onclick="flt(this,'Company News','cn')">Company News <span>13</span></button><button class="flt" data-act="Earnings" onclick="flt(this,'Earnings','cn')">Earnings <span>8</span></button><button class="flt" data-act="Regulatory" onclick="flt(this,'Regulatory','cn')">Regulatory <span>1</span></button></div>
+    <div class="flt-bar"><button class="flt on" data-act="all" onclick="flt(this,'all','cn')">All <span>80</span></button><button class="flt" data-act="M&amp;A" onclick="flt(this,'M&amp;A','cn')">M&amp;A <span>44</span></button><button class="flt" data-act="IPO" onclick="flt(this,'IPO','cn')">IPO <span>15</span></button><button class="flt" data-act="Earnings" onclick="flt(this,'Earnings','cn')">Earnings <span>9</span></button><button class="flt" data-act="Company News" onclick="flt(this,'Company News','cn')">Company News <span>11</span></button><button class="flt" data-act="Regulatory" onclick="flt(this,'Regulatory','cn')">Regulatory <span>1</span></button></div>
   </div>
   <div class="grid" id="grid-cn"><div class="card" data-activity="M&amp;A" data-text="上市公司收购管理办法 company ">
   <div class="card-side">
@@ -2055,7 +2037,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
     <a class="card-title" href="https://www.csrc.gov.cn/csrc/c106256/c1653983/content.shtml" target="_blank" rel="noopener">上市公司收购管理办法</a>
     
@@ -2073,7 +2055,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
     <a class="card-title" href="https://baijiahao.baidu.com/s?id=1865113642775812162&amp;amp;wfr=spider&amp;amp;for=pc" target="_blank" rel="noopener">上市公司并购 VS 收购,一文看透本质!</a>
     
@@ -2091,7 +2073,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
     <a class="card-title" href="https://baijiahao.baidu.com/s?id=1865886663521413343&amp;amp;wfr=spider&amp;amp;for=pc" target="_blank" rel="noopener">CEO离职出走后,开普勒近42%股权将被上市公司收购,公司估值半年内...</a>
     
@@ -2109,7 +2091,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
     <a class="card-title" href="https://baijiahao.baidu.com/s?id=1874721944310721026&amp;amp;wfr=spider&amp;amp;for=pc" target="_blank" rel="noopener">国有控股上市公司并购案例持续“刷屏” A股年内已披露超千起</a>
     
@@ -2127,27 +2109,9 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#0596691a;color:#059669;border-color:#05966944">🚀 IPO</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
     <a class="card-title" href="https://baijiahao.baidu.com/s?id=1879066429264047466&amp;amp;wfr=spider&amp;amp;for=pc" target="_blank" rel="noopener">拟上市公司9大资本运作模式解析</a>
-    
-    <div class="card-foot">
-      <span class="co-tag">Company</span>
-      <span class="src-tag" style="color:#B45309">Baidu News</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="上市公司并购重组活跃 硬科技领衔提质增效 company ">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">23 Oct 2026</span>
-    </div>
-    <a class="card-title" href="https://baijiahao.baidu.com/s?id=1874719552948270907&amp;amp;wfr=spider&amp;amp;for=pc" target="_blank" rel="noopener">上市公司并购重组活跃 硬科技领衔提质增效</a>
     
     <div class="card-foot">
       <span class="co-tag">Company</span>
@@ -2163,9 +2127,27 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
     <a class="card-title" href="https://www.cnr.cn/jlfw/rdzt/jrfz/hydt/20260529/t20260529_527639830.shtml" target="_blank" rel="noopener">东北证券重磅打造《上市公司并购白皮书(2025):市场研究与专题分析...</a>
+    
+    <div class="card-foot">
+      <span class="co-tag">Company</span>
+      <span class="src-tag" style="color:#B45309">Baidu News</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="M&amp;A" data-text="上市公司并购重组活跃 硬科技领衔提质增效 company ">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">24 Oct 2026</span>
+    </div>
+    <a class="card-title" href="https://baijiahao.baidu.com/s?id=1874719552948270907&amp;amp;wfr=spider&amp;amp;for=pc" target="_blank" rel="noopener">上市公司并购重组活跃 硬科技领衔提质增效</a>
     
     <div class="card-foot">
       <span class="co-tag">Company</span>
@@ -2181,7 +2163,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
     <a class="card-title" href="https://baijiahao.baidu.com/s?id=1870488892547874494&amp;amp;wfr=spider&amp;amp;for=pc" target="_blank" rel="noopener">年内A股国有控股上市公司并购超800起!国资布局从“规模扩张”转向...</a>
     
@@ -2199,7 +2181,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
     <a class="card-title" href="https://baijiahao.baidu.com/s?id=1869012258279742932&amp;amp;wfr=spider&amp;amp;for=pc" target="_blank" rel="noopener">上市公司高溢价并购避险样本:431%溢价搭配精细化对赌,巧妙化解...</a>
     
@@ -2217,7 +2199,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">23 Oct 2026</span>
+      <span class="card-date">24 Oct 2026</span>
     </div>
     <a class="card-title" href="https://finance.eastmoney.com/a/202512313606769615.html" target="_blank" rel="noopener">聚焦主业优化布局 地方国资上市公司并购交易驶入快车道</a>
     
@@ -2353,25 +2335,25 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="chinese stocks face us fed and oil pressures in september, says top fund manager chinese us chinese stocks face us fed and oil pressures in september, says top fund manager&amp;nbsp;&amp;nbsp;south china morning post">
+<div class="card" data-activity="Earnings" data-text="what tech-driven company earnings say about china’s diverging growth paths what tech-driven company what tech-driven company earnings say about china’s diverging growth paths&amp;nbsp;&amp;nbsp;south china morning post">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Chinese US">CU</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+    <div class="lw"><div class="avatar" style="background:#D97706" title="What tech-driven company">W</div></div>
+    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">09 Sep 2026</span>
+      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
+      <span class="card-date">02 Sep 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb0c3V3dPMmNQRnRIZFRKOGFmeEd5R25seGE3UjQ4anpya29TTGRYM1VhYnJyLXA1ajBPNklVNjF0RDBTZ3VpR1RkTFVTUHc1aGRCdzF1eTRkeEd1cUlFR0ZQYTM5VXkwR3QwaGdrZVVtMFNBMEtHRFVpbC1keUg1blFsV3AtaVpFQTM1VDgwbjYzRE96WmZ5U1BBeUhQNExRN1dSSFBVMVA3MFhMaFlxdWluOEwzUEpnajJEZ05uNm9GSDFvSmZYSnFpbmt1RGRhVnYzQjlqdTBtcFVQeDVv0gHfAUFVX3lxTE5GNElqay1Qd3BpRTk5bHdXa3lrSHd2Nm5pUFlnTzFad0NJeGR5azV4eWE5VDlhcDI3b3R6UmxxZklFMFRmOW54UGNhTXV6SHJ0SEZMYWRHZ2NRT3Yya1ZwbWhTSVJUTkVkdUkzTXlaVUFOclM2bFJtUGdQWlUyUXBoVlc1T2NtZnJydGFsa3hfeUM5d2xSdFhWZUlPMDYxUVBkSG53OW5WbXI0M2xqN0h1ZXpiT2ZiYzlxb1FpM0o4Y0tTQlVmejcwX3FtREgzVXo5Ym1BWGFnTDBGbVpLcjA?oc=5" target="_blank" rel="noopener">Chinese stocks face US Fed and oil pressures in September, says top fund manager</a>
-    <p class="card-sum">Chinese stocks face US Fed and oil pressures in September, says top fund manager&amp;nbsp;&amp;nbsp;South China Morning Post</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd0dlMkNQZTZvUEtkNDV3S3VFakVzUFVGUzA5VnJ2RHYwcl9vUl9FVG1vVlJSbjFaM29mMDdVRXhpZEd0M3FGTXhDTlZNVTB3aDY5TUtDdGRNZG1hdG1pMjVpbzFBZEJWSzRGVnRZbW5EbXdPY2lHNHU4Qm9HeGdxUlBaWl9LQmpaMnpLUnhGOHR2RkxwNDJ6aF92YXRCOG01NENsSG14VHRUTkVQWnpybWlld2xVSTExeWx3OUx4Qk1rcllnajdKc0lVTVVyRmswd2g3bVRXWdIB1wFBVV95cUxPRWZjWHJITndGQ2lvV09CT1pBZnhkbU01eHk2Z0trTVdQRzZsNXI4bDNxUWFzMVJxbERQNTV0bVBiUVB0b09XbjZVeHBkWnpWaWJ1czlUZGR6MHdPd3VNQ3RxUEwzMUpLRGJrVHFqZ2VrazE4YnNteGdWOG05TGhxbEc3T0E2V05qUGRnNUtiSVk3Q04tVXlfN19Venl0WWxQclhWSzhRQXU1MzhoOTl1Unl2UF9mZlJEUHJJNm83d2E5NTRvbGQ3Ynk4eG9vQkVvdlpvWGRtbw?oc=5" target="_blank" rel="noopener">What tech-driven company earnings say about China’s diverging growth paths</a>
+    <p class="card-sum">What tech-driven company earnings say about China’s diverging growth paths&amp;nbsp;&amp;nbsp;South China Morning Post</p>
     <div class="card-foot">
-      <span class="co-tag">Chinese US</span>
+      <span class="co-tag">What tech-driven company</span>
       <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="超10亿元业绩补偿悬空，游戏龙头重大并购“后患”浮出水面 company 超10亿元业绩补偿悬空，游戏龙头重大并购“后患”浮出水面&amp;nbsp;&amp;nbsp;京报网">
+<div class="card" data-activity="M&amp;A" data-text="超10亿元业绩补偿悬空，世纪华通重大并购“后患”浮出水面 company 超10亿元业绩补偿悬空，世纪华通重大并购“后患”浮出水面&amp;nbsp;&amp;nbsp;京报网">
   <div class="card-side">
     <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
     <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
@@ -2379,13 +2361,31 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">01 Sep 2026</span>
+      <span class="card-date">31 Aug 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMickFVX3lxTFBxa1d3Y3RISm9pTGdVTGpkbjBXeHRLZjhuZVgwT2RDYlJwNGNDdkh1cW0wOVRmNkNlTGlueGlCbllmSXZpWEVWNnE5aTJQN2dwYXZjNTdseHg0aFhfT3NRX1lwYXFna1RwM1M3NnJkRW5LZw?oc=5" target="_blank" rel="noopener">超10亿元业绩补偿悬空，游戏龙头重大并购“后患”浮出水面</a>
-    <p class="card-sum">超10亿元业绩补偿悬空，游戏龙头重大并购“后患”浮出水面&amp;nbsp;&amp;nbsp;京报网</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EbWYxMEtOV2NuVzloNnlHWFRRY0pZVFgxbl9sMzNVUWFncmRKX3VFMk8yOGozUE5zU0NMVHNoMEJSYTROd1Z2N0lnXzNSWGVpZE9RVE1ONFpBOHlhRnc?oc=5" target="_blank" rel="noopener">超10亿元业绩补偿悬空，世纪华通重大并购“后患”浮出水面</a>
+    <p class="card-sum">超10亿元业绩补偿悬空，世纪华通重大并购“后患”浮出水面&amp;nbsp;&amp;nbsp;京报网</p>
     <div class="card-foot">
       <span class="co-tag">Company</span>
       <span class="src-tag" style="color:#B45309">Google (CN)</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Earnings" data-text="china’s cxmt posts massive 870% revenue surge as ‘aggressive expansion’ pays off china cxmt china’s cxmt posts massive 870% revenue surge as ‘aggressive expansion’ pays off&amp;nbsp;&amp;nbsp;south china morning post">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="China CXMT">CC</div></div>
+    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
+      <span class="card-date">28 Aug 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQbDE4RDBJUGkyaEhOX3NuZTAwekdpbkVXWW56ajFiMkVLNXlQOGwyZzJqOTFPeGt4Ty04dlJrZ1FIc0ZPN1p3VmFNak05TnY4WlYzTGxPU0czdHJZdkc3NUVseUpCOWF1a2xSN3dNdzZJSlY2UkI3NmxXSHVqTEVVbzhJcVE1NGNfcTU3SE1zUkJZRHRWWlpyS1dHNjlSUC1Xc3NLWDNqTUdzU2hjbVR1VmtiZGRnOUZEZG80dtIBvAFBVV95cUxPUVVQcERZaHVvYktUTk9FdDVfWUhIejR0dEV0d08zNlZWZFdDUjNnbUZqaU9NOTE5SlZadC1zd0N1QmFpZk5fUlhqdVdBV0JQcnRPdDZzUFJZbTJ6b0U0ZlRVVG1wZ3h5YktLLWJjNGh2NkgyRWZncWw5endvV2dwcjdNcDBNT3kyNGxJeXRWZEtnV09OaFlsd0h3dlBiZTNJWnltMVQ0Vjk1Y2RBeURmTy1EYnk3cEhMa2VLMw?oc=5" target="_blank" rel="noopener">China’s CXMT posts massive 870% revenue surge as ‘aggressive expansion’ pays off</a>
+    <p class="card-sum">China’s CXMT posts massive 870% revenue surge as ‘aggressive expansion’ pays off&amp;nbsp;&amp;nbsp;South China Morning Post</p>
+    <div class="card-foot">
+      <span class="co-tag">China CXMT</span>
+      <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
 </div>
@@ -2403,24 +2403,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     <p class="card-sum">CXMT’s 580% Stock Rally Raises Bar for First Earnings Since IPO&amp;nbsp;&amp;nbsp;Bloomberg.com</p>
     <div class="card-foot">
       <span class="co-tag">CXMT Stock</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="cicc eyes usd16.9bn merger with dongxing, cinda securities cicc eyes usd16.9bn cicc eyes usd16.9bn merger with dongxing, cinda securities&amp;nbsp;&amp;nbsp;law.asia">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#059669" title="CICC eyes USD16.9bn">CU</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">26 Aug 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWaFNHemNVSkUyTi12OTdJQWNCOWtIb01JZUVXZmRyRmVVOVdPRm5wZTdQQjVQMFA0UDNGQVpsdWVUZElBSUdMRmNIcW1nQ1VObVV0b3lFc1ZLNEJmNDZlWGNpWXl2QQ?oc=5" target="_blank" rel="noopener">CICC eyes USD16.9bn merger with Dongxing, Cinda Securities</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>16.9bn</div><p class="card-sum">CICC eyes USD16.9bn merger with Dongxing, Cinda Securities&amp;nbsp;&amp;nbsp;Law.asia</p>
-    <div class="card-foot">
-      <span class="co-tag">CICC eyes USD16.9bn</span>
       <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
@@ -2461,21 +2443,21 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="资金加速涌向硬科技赛道 a股并购重组聚焦“补链强链” company 资金加速涌向硬科技赛道 a股并购重组聚焦“补链强链”&amp;nbsp;&amp;nbsp;封面新闻">
+<div class="card" data-activity="Company News" data-text="china’s pop mart warns of looming headwinds, unveils buy-back plan china pop china’s pop mart warns of looming headwinds, unveils buy-back plan&amp;nbsp;&amp;nbsp;south china morning post">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+    <div class="lw"><div class="avatar" style="background:#059669" title="China Pop">CP</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">19 Aug 2026</span>
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">20 Aug 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiekFVX3lxTE55WmxoVFl1cVR1SXlVS3pZa2hnSXhYa2NLck85M1Z4OXRTRU4zYkVoenZKblh2MHJNWjdwWW9QVUZyRmVJa2M3N0hnN1pvQzJBYWdETGhZNkpFOVBwRjF1UzYxV2luR1BqZkgybUxUMlE1MzBVV2RTeDBB?oc=5" target="_blank" rel="noopener">资金加速涌向硬科技赛道 A股并购重组聚焦“补链强链”</a>
-    <p class="card-sum">资金加速涌向硬科技赛道 A股并购重组聚焦“补链强链”&amp;nbsp;&amp;nbsp;封面新闻</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMizwFBVV95cUxPOTlEYmVNZmdXSmdqb1NHdURGYW9EZ0xPRWg1Z0VBQUJRampJcEZ0NGxTZC0yVVpob3p2amtna0N0MnJXT3c5dllTZnF4blM0LWNpdkJUTEU3QjVUTXE1NjNib0hyT1daR0VpLS02d3FrS1FBTW4zd2VMek1hRlJ6eWZDQWFucXBoaXR0dGJqaGJ2eUJGWnU4NUZjVG9rQldnSEFPejk3eXdyRDdienNQZkpvamp0SnVrMnNWQmcwMWhkTUJBQzZxTkFMRkN6TzDSAc8BQVVfeXFMTTBRbnY4WTJ0aGJRZWVHd3Q1T0VZVjFoQW1NX1NWb1A5VDQ0cVpIeDFLa0k5ODZjbzViV21DNk5qdW43d0RSa2pyUGYxYm15M3dLRzhJb29kUTBHTTEzNEdPQTdkbkpxSy1oNzZWdzRwZFlaNWlRZ3EtcnlvU0ZpZS1ZcG1kNksxdmtJMzI5RXFJbkVkN3BJb3NRc1lPdkl3Q0V0WmZMYlJXVzJPUmhoel9uWTdkVXRTeGxEN0t4M3U2Q0FDSlFXcUg1REFfWDg4?oc=5" target="_blank" rel="noopener">China’s Pop Mart warns of looming headwinds, unveils buy-back plan</a>
+    <p class="card-sum">China’s Pop Mart warns of looming headwinds, unveils buy-back plan&amp;nbsp;&amp;nbsp;South China Morning Post</p>
     <div class="card-foot">
-      <span class="co-tag">Company</span>
-      <span class="src-tag" style="color:#B45309">Google (CN)</span>
+      <span class="co-tag">China Pop</span>
+      <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
 </div>
@@ -2587,38 +2569,20 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="chinese firm behind nigeria&#x27;s $1 billion cement takeover lands another $807 million deal in asia chinese nigeria chinese firm behind nigeria&#x27;s $1 billion cement takeover lands another $807 million deal in asia&amp;nbsp;&amp;nbsp;business insider africa">
+<div class="card" data-activity="Earnings" data-text="china’s memory chip companies post surging half-year earnings growth china china’s memory chip companies post surging half-year earnings growth&amp;nbsp;&amp;nbsp;global times">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="Chinese Nigeria">CN</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+    <div class="lw"><div class="avatar" style="background:#DC2626" title="China">C</div></div>
+    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">02 Aug 2026</span>
+      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
+      <span class="card-date">05 Jul 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYkVMZFVGSV9tYUNrem1KVEt0a3VhSU8wV05XZDRKTFVQTzl4c3YzdjRaRDVzUVJ6eW1ROXRXZ1pJN2psYU93RkxrdnVaZU8ybVB2Q1lyUWluTWZZVV9hYk5lVFdVYm11SXByUTFkWm5LOWtlRUx4VjZXendNQi13T3hNdzhNd2JNUmQ4NjhsaUM4d1pyeTlKOWZSZFR0NDM3RE5DcFJuNUQtbU5qT2xYWDktMjctRllWVW4xaFpJZkJlWmNGRTZFOEZBS295MWRPSlR1UWh5VTI?oc=5" target="_blank" rel="noopener">Chinese firm behind Nigeria&#x27;s $1 billion cement takeover lands another $807 million deal in Asia</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>$1 billion</div><p class="card-sum">Chinese firm behind Nigeria&#x27;s $1 billion cement takeover lands another $807 million deal in Asia&amp;nbsp;&amp;nbsp;Business Insider Africa</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EWFZSTnBzOFlReGo4bDh4NlVZaHA0bS1hVHEtRXlwYk5EenYzaWNxRHNTOUhZWERCcjFaWFZRZzdDYUgwTm1fanM3Rms0YjhJaDREb0xrOUdhRFJGZF9lNUdn?oc=5" target="_blank" rel="noopener">China’s memory chip companies post surging half-year earnings growth</a>
+    <p class="card-sum">China’s memory chip companies post surging half-year earnings growth&amp;nbsp;&amp;nbsp;Global Times</p>
     <div class="card-foot">
-      <span class="co-tag">Chinese Nigeria</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="zijin’s $5.5-billion acquisition of allied gold in jeopardy as china drags its feet on deal approval zijin allied zijin’s $5.5-billion acquisition of allied gold in jeopardy as china drags its feet on deal approval&amp;nbsp;&amp;nbsp;the globe and mail">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Zijin Allied">ZA</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">28 Jul 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0lraTZGa09RYnFnd2c4aG5PVnp2clhXVDdKeU1kZ0o0b3hDbnZRcWlla0VOYkd6dWhwUGY1bE5LaGVmNW8ySENOYVZDM1B1a1hvWkZNLXRGckljcU1aUkJrUHhKZTVoRVlxd0ZYNDZvQlk4eENXRmdUZ0NwZ0JhLW1PT3dmb2lWREI5SUxtalZUcFprWkY0cGM2dDhkVlBZaHFWSEgwcU9kNWFsT2cw?oc=5" target="_blank" rel="noopener">Zijin’s $5.5-billion acquisition of Allied Gold in jeopardy as China drags its feet on deal approval</a>
-    <p class="card-sum">Zijin’s $5.5-billion acquisition of Allied Gold in jeopardy as China drags its feet on deal approval&amp;nbsp;&amp;nbsp;The Globe and Mail</p>
-    <div class="card-foot">
-      <span class="co-tag">Zijin Allied</span>
+      <span class="co-tag">China</span>
       <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
@@ -2695,24 +2659,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="china’s big fund becomes smic’s third-largest shareholder after record buyout china big china’s big fund becomes smic’s third-largest shareholder after record buyout&amp;nbsp;&amp;nbsp;south china morning post">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#0891B2" title="China Big">CB</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">25 Jun 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX0RfN0szQkRMN1RJSGlSenhab1BxWTgxWlk1MXpNWWNzTDd3akFBTnFURExOS1g2dmx1VVlYWTNJWnlTNmxwQm1EYzFLQ19XWXRvZEJ5a1pPcmF0RUl6WVNtYjZYLWw4MGVfRjFUOF9reDZ4bHl4eEhXdm4tcHV2ZGtlYVpZaXJXWmJydmlld1daTHhVUUtUUWtxWnR6OXN1SHV1MFNDSkpZVnhFc2FUc2RNLWVwNHFxcThuVnJBSmRLOTd0WW1jMk5NUEMtQnFMWm1vZdIB1AFBVV95cUxQWW0wUHh5Q1VPNW1TdGFuZUpEWlpfRlFZM2VmV3VkQjRWMWhCdFJGRTVXVE5YMEV5RG9QNkwwX28xWUNUVkVrQ2NxNTh5Qk1zU1cwUDdlTEdPbHZOckVRQTZYU280NWxNVTV3czNZQy1OV09RZ05tTkhXYVJUZHUzbk82Q2dWcFRyVkZOSkp3UWxGMDNIaUw2RlNEU3NIaHRvdndkWVcxd1MybmlXbmloQncwb0dqZzBoSVV0UjUyZlJNQTVTbUxOT1BXN1V1UEpQUl9hdw?oc=5" target="_blank" rel="noopener">China’s Big Fund becomes SMIC’s third-largest shareholder after record buyout</a>
-    <p class="card-sum">China’s Big Fund becomes SMIC’s third-largest shareholder after record buyout&amp;nbsp;&amp;nbsp;South China Morning Post</p>
-    <div class="card-foot">
-      <span class="co-tag">China Big</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
-    </div>
-  </div>
-</div>
 <div class="card" data-activity="M&amp;A" data-text="china merger control conditions: five trends from recent approvals china china merger control conditions: five trends from recent approvals&amp;nbsp;&amp;nbsp;china briefing">
   <div class="card-side">
     <div class="lw"><div class="avatar" style="background:#DC2626" title="China">C</div></div>
@@ -2745,42 +2691,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     <p class="card-sum">1H 2026 review and outlook of the Chinese mainland and Hong Kong&amp;nbsp;&amp;nbsp;Deloitte</p>
     <div class="card-foot">
       <span class="co-tag">Chinese Hong</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Company News" data-text="washington eyes growing biotech prowess from china washington china washington eyes growing biotech prowess from china&amp;nbsp;&amp;nbsp;wp intelligence">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#0891B2" title="Washington China">WC</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">16 Jun 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSTJEVVpxc3ROeEIzS1RDWUZEMm43Rl9Gb3d5R09LTGdFeUFvaUtLMG1kQTB4NzJiMjdjZFNxR3dQQVV4MmpfYkQ1LXdKQzk2bXZFNE5LbmhITzBiMUM1Y09aRkxRRUZ0QU9POC1HUGNyWERmNkRvY015VHg2YVFKTi0xdVZCbzVLendlZUpPbTVLOXI5a0gyQU81TjA4MkVZemtodnpiQVVfUQ?oc=5" target="_blank" rel="noopener">Washington eyes growing biotech prowess from China</a>
-    <p class="card-sum">Washington eyes growing biotech prowess from China&amp;nbsp;&amp;nbsp;WP Intelligence</p>
-    <div class="card-foot">
-      <span class="co-tag">Washington China</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Company News" data-text="travere beefs up rare kidney disease portfolio with up to $1.1b china deal travere china travere beefs up rare kidney disease portfolio with up to $1.1b china deal&amp;nbsp;&amp;nbsp;biospace">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#D97706" title="Travere China">TC</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">03 Jun 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNTy1PSzNBVE9JVWRzalg4VUlBXzNoM1pDeXhaM1FQdUJhbUlWeFN0dVBQak5aQ1pXdE16TEZJcU9PNXAtXy1LYjcwOUVBRmZ3a3p0R195WHhTZmJybGZ3Z2s1TktTY040TGd5bFd5VzNGUnJvOHRSSTF4LThrb1E4STJzdTdDc2tldDVNWmU0aUJGaXFWVG41MmZOUTFUUGU4blZ0RHhGZw?oc=5" target="_blank" rel="noopener">Travere beefs up rare kidney disease portfolio with up to $1.1B China deal</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>$1.1B</div><p class="card-sum">Travere beefs up rare kidney disease portfolio with up to $1.1B China deal&amp;nbsp;&amp;nbsp;BioSpace</p>
-    <div class="card-foot">
-      <span class="co-tag">Travere China</span>
       <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
@@ -2821,21 +2731,39 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="blocking of meta&#x27;s ai startup buy raises risk for cross-border china tech deals raises risk for cross-border ch blocking of meta&#x27;s ai startup buy raises risk for cross-border china tech deals&amp;nbsp;&amp;nbsp;reuters">
+<div class="card" data-activity="M&amp;A" data-text="china’s biggest contract chipmaker clears final hurdle for us$6 billion takeover china us china’s biggest contract chipmaker clears final hurdle for us$6 billion takeover&amp;nbsp;&amp;nbsp;south china morning post">
   <div class="card-side">
-    <div class="lw" title="raises risk for cross-border Ch"><img src="https://logo.clearbit.com/meta.com" alt="raises risk for cross-border Ch" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#DB2777;display:none">C</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+    <div class="lw"><div class="avatar" style="background:#DC2626" title="China US">CU</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">28 Apr 2026</span>
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">22 May 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMixgFBVV95cUxONHhWQXZBbE1kUVFmNlkweWNxajd4TmdQVEYycjVFSmZjY19IM2hZZlhNTDNYVUdJWFUtWDY3cUFsQkRFY3NLSnBvWnNSNlR6WFpHM0R6aVdaUHo0RWRJUG9UbTFCUTV3ZGNRZDlSWmtuaWo2ZkswLUlXUnA3SFFUenFwMXhRekZTTTVxWW90ejA2R21BUTFRbXZ4ZUlINk1GV3kyS3NDcUljUTFXNEZ5WDZFb3hyUGpHc2NQZThjOHdLdzhzZGc?oc=5" target="_blank" rel="noopener">Blocking of Meta&#x27;s AI startup buy raises risk for cross-border China tech deals</a>
-    <p class="card-sum">Blocking of Meta&#x27;s AI startup buy raises risk for cross-border China tech deals&amp;nbsp;&amp;nbsp;Reuters</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMioAFBVV95cUxNdzhPRThUSVRLZnROZlFpcnQzb2htTHY0Y1hIRmdrZXc1dzJtUHZhaC1fdDMyekhiZlZjVlNCVy1wM19WeGotU2REd3paTThvaTdVOVFiSHp5QjlhY1ItNXQtR0pQWTJDbXpncDRYSW5ZZ1dyUDJWSk1HTUg0RUFvSUVOOHlqT1hsNjV5ZjZDTGxOeExqVzM1QVozdkxjNWhk0gGgAUFVX3lxTE1MT0hfOVhITzR4d3pickZzWURxM3pvdi1obFMwX0Vkb0pDUy14cml2cUZNZTJBMTE3UWxudVF0aXRQaFNoY1pOY3dEUGdURW8tSV9qSlkwQklmejZGeGNXOFR3N2hVeWZiNXlEU1NuUmR4eEFZZ0lmaDEzVlJHRDRKZVlFVWVKbDlkMWF0OHRFUkdyX01kMGZwLWdoMHBHQjc?oc=5" target="_blank" rel="noopener">China’s biggest contract chipmaker clears final hurdle for US$6 billion takeover</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>US$6 billion</div><p class="card-sum">China’s biggest contract chipmaker clears final hurdle for US$6 billion takeover&amp;nbsp;&amp;nbsp;South China Morning Post</p>
     <div class="card-foot">
-      <span class="co-tag">raises risk for cross-border Ch</span>
+      <span class="co-tag">China US</span>
       <span class="src-tag" style="color:#B45309">Google (EN)</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="M&amp;A" data-text="上市公司并购 vs 收购，一文看透本质！ vs 上市公司并购 vs 收购，一文看透本质！&amp;nbsp;&amp;nbsp;新浪财经">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#7C3AED" title="VS">V</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">14 May 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBEeUlfWFJzLV9uZXpDWGNzR2hZNi10SjU2ajdKOEpMYmxtQ0RhWFg4dFRxcENSbzRmRlFBSFpENTZzTGlUY0JESkpLN0RHZEdFRkFsZnpiZmlPNjlabjJpdlllYkU1ZWZVc1Z6bUh0RVJvSXEt?oc=5" target="_blank" rel="noopener">上市公司并购 VS 收购，一文看透本质！</a>
+    <p class="card-sum">上市公司并购 VS 收购，一文看透本质！&amp;nbsp;&amp;nbsp;新浪财经</p>
+    <div class="card-foot">
+      <span class="co-tag">VS</span>
+      <span class="src-tag" style="color:#B45309">Google (CN)</span>
     </div>
   </div>
 </div>
@@ -2893,24 +2821,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="china orders meta to unwind $2 billion purchase of ai startup manus meta china orders meta to unwind $2 billion purchase of ai startup manus&amp;nbsp;&amp;nbsp;reuters">
-  <div class="card-side">
-    <div class="lw" title="Meta"><img src="https://logo.clearbit.com/meta.com" alt="Meta" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#DB2777;display:none">M</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">27 Apr 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOMmstdDVmX2syX0pFbUJCb2RsSWFscnlOLWdYZjNfSk80LXpCdU5aN1V1aWI5R0tsUVpJdzgtN3FqNkxrc2d2cThmeHd1WWd6aVhDUUoxaXF1cURST09KSEd5ckR2YVA4VTcxRHVsLVBmVFRXeWY1TVpsdGFwamxsWTdxNkJNMTlHTy02aUVjM2JRNVpncTJPR01kWDBrdmFfblI5MjVWSQ?oc=5" target="_blank" rel="noopener">China orders Meta to unwind $2 billion purchase of AI startup Manus</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>$2 billion</div><p class="card-sum">China orders Meta to unwind $2 billion purchase of AI startup Manus&amp;nbsp;&amp;nbsp;Reuters</p>
-    <div class="card-foot">
-      <span class="co-tag">Meta</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
-    </div>
-  </div>
-</div>
 <div class="card" data-activity="M&amp;A" data-text="china blocks meta’s $2 billion acquisition of ai firm manus meta china blocks meta’s $2 billion acquisition of ai firm manus&amp;nbsp;&amp;nbsp;bloomberg.com">
   <div class="card-side">
     <div class="lw" title="Meta"><img src="https://logo.clearbit.com/meta.com" alt="Meta" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#DB2777;display:none">M</div></div>
@@ -2923,6 +2833,24 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
     <a class="card-title" href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNSTlpbXNBWmRBZktkWUk3dTV5NVFUbmZzMkxNWGVRUjduTXFTREc5b0NhXzk4WmdCeVpxVVRQRnRQOF9Va1huVUtveDdQLWR1UTBGTWtaVFVmUlp5bFF2NlVpRnZzdWpxMm02MFVEclAxSmhwTWgyVG1OR2Znc2hmT2VGUnN5Vkt1N3RxZHpKUFJEU1hNZ1dkT3cwc2pSSUl4Rk5qN1gzX1ZDSnhBWjJEcC1n?oc=5" target="_blank" rel="noopener">China Blocks Meta’s $2 Billion Acquisition of AI Firm Manus</a>
     <div class="deal-tag"><span class="deal-icon">$</span>$2 Billion</div><p class="card-sum">China Blocks Meta’s $2 Billion Acquisition of AI Firm Manus&amp;nbsp;&amp;nbsp;Bloomberg.com</p>
+    <div class="card-foot">
+      <span class="co-tag">Meta</span>
+      <span class="src-tag" style="color:#B45309">Google (EN)</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="china orders meta to unwind $2 billion purchase of ai startup manus meta china orders meta to unwind $2 billion purchase of ai startup manus&amp;nbsp;&amp;nbsp;reuters">
+  <div class="card-side">
+    <div class="lw" title="Meta"><img src="https://logo.clearbit.com/meta.com" alt="Meta" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#DB2777;display:none">M</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">27 Apr 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOMmstdDVmX2syX0pFbUJCb2RsSWFscnlOLWdYZjNfSk80LXpCdU5aN1V1aWI5R0tsUVpJdzgtN3FqNkxrc2d2cThmeHd1WWd6aVhDUUoxaXF1cURST09KSEd5ckR2YVA4VTcxRHVsLVBmVFRXeWY1TVpsdGFwamxsWTdxNkJNMTlHTy02aUVjM2JRNVpncTJPR01kWDBrdmFfblI5MjVWSQ?oc=5" target="_blank" rel="noopener">China orders Meta to unwind $2 billion purchase of AI startup Manus</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>$2 billion</div><p class="card-sum">China orders Meta to unwind $2 billion purchase of AI startup Manus&amp;nbsp;&amp;nbsp;Reuters</p>
     <div class="card-foot">
       <span class="co-tag">Meta</span>
       <span class="src-tag" style="color:#B45309">Google (EN)</span>
@@ -3001,20 +2929,20 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="over 700 chinese a-share firms release financial results for 2025, with hard-tech sector posting notable performance over chinese over 700 chinese a-share firms release financial results for 2025, with hard-tech sector posting notable performance&amp;nbsp;&amp;nbsp;global times">
+<div class="card" data-activity="Company News" data-text="ra capital targets china with latest spac deal ra capital ra capital targets china with latest spac deal&amp;nbsp;&amp;nbsp;biopharma dive">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DC2626" title="Over Chinese">OC</div></div>
+    <div class="lw"><div class="avatar" style="background:#7C3AED" title="RA Capital">RC</div></div>
     <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">29 Mar 2026</span>
+      <span class="card-date">24 Mar 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE52RFJqaFQxTkRGSERoZnMwQUJlTkhySGp2WHA1dC0xbHhlUm8zYW5MQzhXcHRUcXBiVWh4VWxrbHpFRV9iS0EtSE5yU0JRdkZ2bzFyd2Q1NzZwY1BCMktITGtR?oc=5" target="_blank" rel="noopener">Over 700 Chinese A-share firms release financial results for 2025, with hard-tech sector posting notable performance</a>
-    <p class="card-sum">Over 700 Chinese A-share firms release financial results for 2025, with hard-tech sector posting notable performance&amp;nbsp;&amp;nbsp;Global Times</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ0lCc1ZpM211QXdWeEdBZkZOR0h4R2pYR2tqb29XSkFfUkY5N0dmUEU0LWc5REFZU3BIejhRZHlyZDNUR0xEMW9LenJhSzhzeVp2cVU5WVZ5Mm5ISjlseGhYbDdSbzdKTmlraWpGYnZjSkU3YTk2V0Nuc2JWWHZOejJ3NkNyZw?oc=5" target="_blank" rel="noopener">RA Capital targets China with latest SPAC deal</a>
+    <p class="card-sum">RA Capital targets China with latest SPAC deal&amp;nbsp;&amp;nbsp;BioPharma Dive</p>
     <div class="card-foot">
-      <span class="co-tag">Over Chinese</span>
+      <span class="co-tag">RA Capital</span>
       <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
@@ -3037,24 +2965,6 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Company News" data-text="china ramps up scrutiny of a meta a.i. deal meta china ramps up scrutiny of a meta a.i. deal&amp;nbsp;&amp;nbsp;the new york times">
-  <div class="card-side">
-    <div class="lw" title="Meta"><img src="https://logo.clearbit.com/meta.com" alt="Meta" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#DB2777;display:none">M</div></div>
-    <span class="act-dot" style="background:#64748B" title="Company News"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
-      <span class="card-date">17 Mar 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNUjA0R05NbGVLbV8zNFNybGhxdzZQZEJhVElqdVktYjhLV1dKd2dkd1dzdERRWDliXzBnamdLeURBRlNCNG1qTElWdFYtR3hxdFNleFVIT1RqNmtPSWlwUDJhSks5S2ZacWwwTFhCN2dUZjUtY0dWSnJzd2w3LTc1S0hB?oc=5" target="_blank" rel="noopener">China Ramps Up Scrutiny of a Meta A.I. Deal</a>
-    <p class="card-sum">China Ramps Up Scrutiny of a Meta A.I. Deal&amp;nbsp;&amp;nbsp;The New York Times</p>
-    <div class="card-foot">
-      <span class="co-tag">Meta</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
-    </div>
-  </div>
-</div>
 <div class="card" data-activity="IPO" data-text="chinese ai firm minimax more than doubles revenue in first post-ipo results chinese ai chinese ai firm minimax more than doubles revenue in first post-ipo results&amp;nbsp;&amp;nbsp;wsj">
   <div class="card-side">
     <div class="lw"><div class="avatar" style="background:#7C3AED" title="Chinese AI">CA</div></div>
@@ -3073,39 +2983,21 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="Earnings" data-text="chinese energy storage players&#x27; 2025 earnings forecasts: high growth, turnarounds and profit declines - energy-storage.news chinese energy storage players&#x27; 2025 chinese energy storage players&#x27; 2025 earnings forecasts: high growth, turnarounds and profit declines&amp;nbsp;&amp;nbsp;energy-storage.news">
+<div class="card" data-activity="M&amp;A" data-text="中企并购市场现状 company 中企并购市场现状&amp;nbsp;&amp;nbsp;清科研究">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="Chinese energy storage players&#x27; 2025">C</div></div>
-    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
-      <span class="card-date">03 Mar 2026</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQTU95U1oxbGM4OC11dzYzVkxBUGFzSHRRUzFWam9MQ1NzU1ZZMDBzcEdrMGw5Y3YyLVB1QUJvZDZ0WldORXJGSnB1YmFPYWlFU1BubkFsSWFFUWo3TWoyR053eUFzMTVfZ1NFZjJTcUlsVjJicjRmeUpPd3NqV1c3Yk1nWG11R05BYjRHSWpybXlXOExZNk0xbWVkU004OG11RWpDWWhKOWVMdEJJOTRpUjdKeHN0ZWdZMV90MldoOW1fYjNTNGg5WldjWQ?oc=5" target="_blank" rel="noopener">Chinese energy storage players&#x27; 2025 earnings forecasts: High growth, turnarounds and profit declines - Energy-Storage.News</a>
-    <p class="card-sum">Chinese energy storage players&#x27; 2025 earnings forecasts: High growth, turnarounds and profit declines&amp;nbsp;&amp;nbsp;Energy-Storage.News</p>
-    <div class="card-foot">
-      <span class="co-tag">Chinese energy storage players&#x27; 2025</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="M&amp;A" data-text="cicc’s $16.2bn acquisition of dongxing securities &amp; cinda securities cicc acquisition cicc’s $16.2bn acquisition of dongxing securities &amp; cinda securities&amp;nbsp;&amp;nbsp;mergersight group">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DC2626" title="CICC Acquisition">CA</div></div>
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
     <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">02 Mar 2026</span>
+      <span class="card-date">27 Feb 2026</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPX2JxbFVCLXNqZHpBNzhqdnduSHo5Ti1VVGduVW5zc3YxSjlwWGtGOWVvQjR6b1J2dTVDR0Nrd0JVZTlTbTJJdmF3VFRlMHNnbDhoN2FfcFN0WWRMeFdNVHZhQnY0bDlTTmlqT0h1TzgtbjRWejUzZURtYXBmMjJkNGhqbDVzX2NWb3RFY0hNQ25ZSjdsUzRsWWpZTkIyU3M?oc=5" target="_blank" rel="noopener">CICC’s $16.2bn Acquisition of Dongxing Securities &amp; Cinda Securities</a>
-    <div class="deal-tag"><span class="deal-icon">$</span>$16.2bn</div><p class="card-sum">CICC’s $16.2bn Acquisition of Dongxing Securities &amp; Cinda Securities&amp;nbsp;&amp;nbsp;MergerSight Group</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkc1VlcV8yYWlWRmFnWkhEbFNCMDF0aXJ4aXlWcVRPZWgwM2hlVWhucHJRR2VmMWlNMmdDYnZHQTRKaGQ0ZFczN192RDYyelhvQjVnWUNwaHBHNnM?oc=5" target="_blank" rel="noopener">中企并购市场现状</a>
+    <p class="card-sum">中企并购市场现状&amp;nbsp;&amp;nbsp;清科研究</p>
     <div class="card-foot">
-      <span class="co-tag">CICC Acquisition</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
+      <span class="co-tag">Company</span>
+      <span class="src-tag" style="color:#B45309">Google (CN)</span>
     </div>
   </div>
 </div>
@@ -3127,6 +3019,24 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
+<div class="card" data-activity="M&amp;A" data-text="关于私募基金“先投后募”收购上市公司控制权案例解析 company 关于私募基金“先投后募”收购上市公司控制权案例解析&amp;nbsp;&amp;nbsp;lexology">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">06 Feb 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ0Y3R3hFSG1SNXczem5hR1Rob0VzSlZNVDBIT21RUXdqdXFsSG9aYW9wQlBoc3NvNURjVTB4QjZfWUNOeEhKdkVWcGRBNTA3ZERkc0VLQWdJeEh4ZzVRY3lDRGlXaGdZa20yQ2ZPcmtfR0w0TFRVOUZUN1gzaVB2U2tMQnVGbkhFMjQ0?oc=5" target="_blank" rel="noopener">关于私募基金“先投后募”收购上市公司控制权案例解析</a>
+    <p class="card-sum">关于私募基金“先投后募”收购上市公司控制权案例解析&amp;nbsp;&amp;nbsp;Lexology</p>
+    <div class="card-foot">
+      <span class="co-tag">Company</span>
+      <span class="src-tag" style="color:#B45309">Google (CN)</span>
+    </div>
+  </div>
+</div>
 <div class="card" data-activity="M&amp;A" data-text="多股应声涨停！本周披露并购重组进展的a股名单一览 company 多股应声涨停！本周披露并购重组进展的a股名单一览&amp;nbsp;&amp;nbsp;财联社">
   <div class="card-side">
     <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
@@ -3142,6 +3052,24 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     <div class="card-foot">
       <span class="co-tag">Company</span>
       <span class="src-tag" style="color:#B45309">Google (CN)</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="M&amp;A" data-text="rio tinto-glencore merger may need asset sales to win over china rio tinto-glencore rio tinto-glencore merger may need asset sales to win over china&amp;nbsp;&amp;nbsp;reuters">
+  <div class="card-side">
+    <div class="lw" title="Rio Tinto-Glencore"><img src="https://logo.clearbit.com/riotinto.com" alt="Rio Tinto-Glencore" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#D97706;display:none">RT</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">15 Jan 2026</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOMjBzTkJ6S3RtR19saVg1di1IcXMycmFFMzNVbzVOYTBYZlVpQndlX0VIY3VUMTROelVuUVZFR1BZc2VlZEp3akZWX3JiRTJId2RfcVlnc2lnT1dtZW9KRHVldHRPWkdic0p5THB1cVM5eWRhemRET0VYZ2NmOFpTc2tHMl9POUpjWFR4X1BMM2NIQ3ZTM09BREFFcmtNNDVGTVhuLTJaaG9JUHozM1E?oc=5" target="_blank" rel="noopener">Rio Tinto-Glencore merger may need asset sales to win over China</a>
+    <p class="card-sum">Rio Tinto-Glencore merger may need asset sales to win over China&amp;nbsp;&amp;nbsp;Reuters</p>
+    <div class="card-foot">
+      <span class="co-tag">Rio Tinto-Glencore</span>
+      <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
 </div>
@@ -3217,39 +3145,21 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="elizabeth warren and lina khan killed amazon&#x27;s irobot acquisition over data privacy concerns. now china gets the data. amazon elizabeth warren and lina khan killed amazon&#x27;s irobot acquisition over data privacy concerns. now china gets the data.&amp;nbsp;&amp;nbsp;freebeacon.com">
+<div class="card" data-activity="M&amp;A" data-text="独角兽开始收购上市公司了 company 独角兽开始收购上市公司了&amp;nbsp;&amp;nbsp;36kr">
   <div class="card-side">
-    <div class="lw" title="Amazon"><img src="https://logo.clearbit.com/amazon.com" alt="Amazon" width="52" height="52" style="border-radius:10px;object-fit:contain;display:block" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar" style="background:#9333EA;display:none">A</div></div>
+    <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
     <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">19 Dec 2025</span>
+      <span class="card-date">28 Dec 2025</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSGtmUFpXb2I0emQweXRHZW94Ti1SdnBZU3dmX3VhMGFlTjU1aWkzN1owMG54LVgtQVlhNi15UnZ4YXRTZktHQTlYRTJNRXBjYXdIUmI4YV9UdFhBcS15OV9zRWxvQ19MRTYxTkZjYnRPb3FTSkVrWXMzMVFMcENYZHFUWFAwaVdkNXpzN0I5MEVocnlmbnZ0NG13UTc2Q1F5eHlrX3Nhb3R0eGw5UjA2WGQ5dS1GRmQyTWk1LWhFRUVOU2kxWFVIZFNMSzM3Q0dZVW12VjlLeEdXc2RRM3c?oc=5" target="_blank" rel="noopener">Elizabeth Warren and Lina Khan Killed Amazon&#x27;s iRobot Acquisition Over Data Privacy Concerns. Now China Gets The Data.</a>
-    <p class="card-sum">Elizabeth Warren and Lina Khan Killed Amazon&#x27;s iRobot Acquisition Over Data Privacy Concerns. Now China Gets The Data.&amp;nbsp;&amp;nbsp;freebeacon.com</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE9kNlNna0JaUFdGdDRpZkRHUVdQdzNpdmx2Q3FxR3ZKUHI0eDc1UHpuSk1nc3k3MS1Mc0MyZHlsMlc3TWxLeE9lMWxCaVNFZw?oc=5" target="_blank" rel="noopener">独角兽开始收购上市公司了</a>
+    <p class="card-sum">独角兽开始收购上市公司了&amp;nbsp;&amp;nbsp;36Kr</p>
     <div class="card-foot">
-      <span class="co-tag">Amazon</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
-    </div>
-  </div>
-</div>
-<div class="card" data-activity="Earnings" data-text="controlling shareholders’ equity pledges, earnings management and firms’ investment in innovation–evidence from china’s a-share listed companies controlling china controlling shareholders’ equity pledges, earnings management and firms’ investment in innovation–evidence from china’s a-share listed companies&amp;nbsp;&amp;nbsp;nature">
-  <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#9333EA" title="Controlling China">CC</div></div>
-    <span class="act-dot" style="background:#0891B2" title="Earnings"></span>
-  </div>
-  <div class="card-body">
-    <div class="card-meta">
-      <span class="act-badge" style="background:#0891B21a;color:#0891B2;border-color:#0891B244">📊 Earnings</span>
-      <span class="card-date">18 Dec 2025</span>
-    </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JZ05uQUVHX1VXbnQwdXMyb0V0N0Zpcm9sSTJQa0pUOXMwUmQxSHFMRXN0a21JTkg1ZVg3aUxycFpadWtBQjl5ZVFaUWFYYTYzc2J0bm1fSDRBcGtVLVVJ?oc=5" target="_blank" rel="noopener">Controlling shareholders’ equity pledges, earnings management and firms’ investment in innovation–evidence from China’s A-share listed companies</a>
-    <p class="card-sum">Controlling shareholders’ equity pledges, earnings management and firms’ investment in innovation–evidence from China’s A-share listed companies&amp;nbsp;&amp;nbsp;Nature</p>
-    <div class="card-foot">
-      <span class="co-tag">Controlling China</span>
-      <span class="src-tag" style="color:#B45309">Google (EN)</span>
+      <span class="co-tag">Company</span>
+      <span class="src-tag" style="color:#B45309">Google (CN)</span>
     </div>
   </div>
 </div>
@@ -3289,21 +3199,21 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="第五届重庆资本市场高质量发展大会成功举行 发布重庆首部上市公司并购重组研究报告 company 第五届重庆资本市场高质量发展大会成功举行 发布重庆首部上市公司并购重组研究报告&amp;nbsp;&amp;nbsp;证券时报网">
+<div class="card" data-activity="Company News" data-text="looking back at m&amp;a in 2025: behind the great rebound looking back looking back at m&amp;a in 2025: behind the great rebound&amp;nbsp;&amp;nbsp;bain &amp; company">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
-    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+    <div class="lw"><div class="avatar" style="background:#D97706" title="Looking Back">LB</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
-      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">11 Dec 2025</span>
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">10 Dec 2025</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1nRU8zeVBVYVEtVFhyR05YR2VjWWQyNUN6YlQtSGUxZDVNT2I2UzZNaTRGZ0FsWTRuaDlUUFV6VEk3SjJoU3hKS2FJUU9QU2thdkVqQmpubw?oc=5" target="_blank" rel="noopener">第五届重庆资本市场高质量发展大会成功举行 发布重庆首部上市公司并购重组研究报告</a>
-    <p class="card-sum">第五届重庆资本市场高质量发展大会成功举行 发布重庆首部上市公司并购重组研究报告&amp;nbsp;&amp;nbsp;证券时报网</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE11LTBxckNtWjQzcldzck53VXJVY0swMWcwcVVxZnNwWU9IaWZBVEViMUJiaXdac1l2QnBTT0x2QkdaYkZGWFI4RnVIcnBoUDc3bjRMX1daX25xUGxCYXBBVVo3c3VvTDZJel9XYU1tcUc?oc=5" target="_blank" rel="noopener">Looking Back at M&amp;A in 2025: Behind the Great Rebound</a>
+    <p class="card-sum">Looking Back at M&amp;A in 2025: Behind the Great Rebound&amp;nbsp;&amp;nbsp;Bain &amp; Company</p>
     <div class="card-foot">
-      <span class="co-tag">Company</span>
-      <span class="src-tag" style="color:#B45309">Google (CN)</span>
+      <span class="co-tag">Looking Back</span>
+      <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
 </div>
@@ -3361,7 +3271,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="2024年中国a股上市公司跨境并购数据分析报告 company 2024年中国a股上市公司跨境并购数据分析报告&amp;nbsp;&amp;nbsp;lexology">
+<div class="card" data-activity="M&amp;A" data-text="2024年中国a股上市公司跨境并购数据分析报告- 金杜律师事务所 company 2024年中国a股上市公司跨境并购数据分析报告- 金杜律师事务所&amp;nbsp;&amp;nbsp;king &amp; wood">
   <div class="card-side">
     <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
     <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
@@ -3371,8 +3281,8 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
       <span class="card-date">03 Jun 2025</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaGZ4MkNITlU3aF9laTEwd2xpcWtUalJrVWhYUU5sQmlTRTZNV05jckd0UmRBd2ZUeTYwcVBZZTh6V0JGNzZUQjZFczN6d0lHaXVOYlRrQnZMQ2QzR0NSUmhoUW01TU9hMnVaVmttTElXZ2phMnl0VHFWMjBGSjBjY3Q2X2pVVzNRdjBr?oc=5" target="_blank" rel="noopener">2024年中国A股上市公司跨境并购数据分析报告</a>
-    <p class="card-sum">2024年中国A股上市公司跨境并购数据分析报告&amp;nbsp;&amp;nbsp;Lexology</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWDljUllyMkxGMzNkRU5NZXdWQVR4ZnRZLWpEbTVRVEU0R0dWQmVEbnZpSnRpOEFJb3BiSUFpWXhTcGw0MXBoVTk0U1NqbC1OSU5WV2xZM3NqZ0lJaXo3dnloWkdabEFzSmF3VXktZFNRS1BvLTBoVUwwaENnaEt5NXF4bHlNQVJ1eVp4SEZqVkpVR3ZyT3hNSWRyYWZrTHBDQTlGcTVYV2RpYTdvXzBPRHpReFNDVjE0emI3UUdlZGVobFNhbXFmWHh4S0RKd3R0S21Tb3pMR1hUTnhualZhUlVoMW9pQ2YyR1ByLXNn?oc=5" target="_blank" rel="noopener">2024年中国A股上市公司跨境并购数据分析报告- 金杜律师事务所</a>
+    <p class="card-sum">2024年中国A股上市公司跨境并购数据分析报告- 金杜律师事务所&amp;nbsp;&amp;nbsp;King &amp; Wood</p>
     <div class="card-foot">
       <span class="co-tag">Company</span>
       <span class="src-tag" style="color:#B45309">Google (CN)</span>
@@ -3394,6 +3304,24 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     <div class="card-foot">
       <span class="co-tag">Company</span>
       <span class="src-tag" style="color:#B45309">Google (CN)</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="Company News" data-text="the clawback: reclaiming strategic assets from china the clawback the clawback: reclaiming strategic assets from china&amp;nbsp;&amp;nbsp;rhodium group">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#7C3AED" title="The Clawback">TC</div></div>
+    <span class="act-dot" style="background:#64748B" title="Company News"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#64748B1a;color:#64748B;border-color:#64748B44">📰 Company News</span>
+      <span class="card-date">31 Mar 2025</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQYkdZaE5QVFZWWDZUNVpyODc3WEpMTWVPWWRhMF9XVEhIQUtFVWUtOGpHd2NNaktUeGhSU1kzX29FZWhjWXoxbF9xNWpBVmZvcTR4NkdTaTVQVTBReEdkRHhBVm90Y2ZWSncxa2JTZmg5NW5Fb2pSSl9Kdmsta2xDV0phbw?oc=5" target="_blank" rel="noopener">The Clawback: Reclaiming Strategic Assets from China</a>
+    <p class="card-sum">The Clawback: Reclaiming Strategic Assets from China&amp;nbsp;&amp;nbsp;Rhodium Group</p>
+    <div class="card-foot">
+      <span class="co-tag">The Clawback</span>
+      <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
 </div>
@@ -3487,27 +3415,63 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-
     </div>
   </div>
 </div>
-<div class="card" data-activity="M&amp;A" data-text="浅析支付工具对上市公司重大资产重组的影响 company 浅析支付工具对上市公司重大资产重组的影响&amp;nbsp;&amp;nbsp;君合">
+<div class="card" data-activity="M&amp;A" data-text="china increases merger filing thresholds china increases china increases merger filing thresholds&amp;nbsp;&amp;nbsp;skadden, arps, slate, meagher &amp; flom llp">
   <div class="card-side">
-    <div class="lw"><div class="avatar" style="background:#DB2777" title="Company">C</div></div>
+    <div class="lw"><div class="avatar" style="background:#1D4ED8" title="China Increases">CI</div></div>
     <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
   </div>
   <div class="card-body">
     <div class="card-meta">
       <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
-      <span class="card-date">22 Nov 2023</span>
+      <span class="card-date">29 Jan 2024</span>
     </div>
-    <a class="card-title" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TV0VmOE9wRFhMcXJoOGxVZVctNi1hbDRIRnZCc3JFaTZKR1BfanJPUEt4UFo0MHVsa0hRczhDNWFES0w1UkUtek9FRmpuMDQ?oc=5" target="_blank" rel="noopener">浅析支付工具对上市公司重大资产重组的影响</a>
-    <p class="card-sum">浅析支付工具对上市公司重大资产重组的影响&amp;nbsp;&amp;nbsp;君合</p>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPREZ6TFd1NEo0V05kQkR6MmwtZjlveThHbGt5em54WjdnZ2gyWFF5cFFpcEdqai1Pd0k0LW1Mc0dVRGR2ZEk4dkRySHdUbVhZWlM1Z0tOb0F3dENXLVlheUlZLTlxMW96bGF4MktuSm1kZ2ZZQUpvWGhoTWJmZnllSDBsdXc0dklRdklvT2NXdWd4UUpnRUd5UUtR?oc=5" target="_blank" rel="noopener">China Increases Merger Filing Thresholds</a>
+    <p class="card-sum">China Increases Merger Filing Thresholds&amp;nbsp;&amp;nbsp;Skadden, Arps, Slate, Meagher &amp; Flom LLP</p>
     <div class="card-foot">
-      <span class="co-tag">Company</span>
-      <span class="src-tag" style="color:#B45309">Google (CN)</span>
+      <span class="co-tag">China Increases</span>
+      <span class="src-tag" style="color:#B45309">Google (EN)</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="M&amp;A" data-text="china clears broadcom’s $69b vmware acquisition, allowing deal to close china broadcom china clears broadcom’s $69b vmware acquisition, allowing deal to close&amp;nbsp;&amp;nbsp;network world">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#059669" title="China Broadcom">CB</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">21 Nov 2023</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQR0RTQUJWNlJ2cjA5UEg5bF9sTmFPb2lPX2szN3JncTJxTU55TDBGR3RpR0R0UlZoRkJKUXBEcTlmV0lPc2o0OFBfQ2Rndlp4TUQ2TFRNakZfOWc0Y2U2YVpHQ0dsLTBLclhiLVBGRlJ2SFh0bjJ3T00zMzBhZDhHMU5mUF91UGhtZ3ZLaFROVEhxa0V3RUotOElLd0d6TjlwM01ndi0yRk1UenVBcHBMS3dKY3h2ZHd1QWc?oc=5" target="_blank" rel="noopener">China clears Broadcom’s $69B VMware acquisition, allowing deal to close</a>
+    <div class="deal-tag"><span class="deal-icon">$</span>$69B</div><p class="card-sum">China clears Broadcom’s $69B VMware acquisition, allowing deal to close&amp;nbsp;&amp;nbsp;Network World</p>
+    <div class="card-foot">
+      <span class="co-tag">China Broadcom</span>
+      <span class="src-tag" style="color:#B45309">Google (EN)</span>
+    </div>
+  </div>
+</div>
+<div class="card" data-activity="M&amp;A" data-text="exclusive | china’s new tech weapon: dragging its feet on global merger approvals exclusive china exclusive | china’s new tech weapon: dragging its feet on global merger approvals&amp;nbsp;&amp;nbsp;wsj">
+  <div class="card-side">
+    <div class="lw"><div class="avatar" style="background:#DC2626" title="Exclusive China">EC</div></div>
+    <span class="act-dot" style="background:#7C3AED" title="M&amp;A"></span>
+  </div>
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="act-badge" style="background:#7C3AED1a;color:#7C3AED;border-color:#7C3AED44">🤝 M&amp;A</span>
+      <span class="card-date">05 Apr 2023</span>
+    </div>
+    <a class="card-title" href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVk5RWnJLMEpoZEtyTHFvM04wYWMzNGRqMktPSDV0TDlXVzlRRzJvRGlvaWg0dHlVYVJ5a1BsRjRoZjZwYlNwVTBkYzd4djhkRHN4YUlHS29sQjVpZzJuczBtb0pmTFpHUWNNdlBFSGhsQlBIR3pFUUJ4cUZKOHV0Y2ZCOUFRR3ZLTXNySENaUXZ1aFNmQjJzeFdXbkZhODQ1bzRJTWpvYms?oc=5" target="_blank" rel="noopener">Exclusive | China’s New Tech Weapon: Dragging Its Feet on Global Merger Approvals</a>
+    <p class="card-sum">Exclusive | China’s New Tech Weapon: Dragging Its Feet on Global Merger Approvals&amp;nbsp;&amp;nbsp;WSJ</p>
+    <div class="card-foot">
+      <span class="co-tag">Exclusive China</span>
+      <span class="src-tag" style="color:#B45309">Google (EN)</span>
     </div>
   </div>
 </div></div>
   <div class="empty-filter" id="empty-cn" style="display:none">No articles match this filter.</div>
 </div></main>
-<div class="footer">M&amp;A Intelligence Reporter &nbsp;·&nbsp; 2026-10-23 &nbsp;·&nbsp; Logos via Clearbit</div>
+<div class="footer">M&amp;A Intelligence Reporter &nbsp;·&nbsp; 2026-10-24 &nbsp;·&nbsp; Logos via Clearbit</div>
 <button id="topbtn" title="Back to top">&#8593;</button>
 <script>
 var _kf=null,_sq='';
